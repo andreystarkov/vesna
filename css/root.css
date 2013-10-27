@@ -1,0 +1,110 @@
+        .header-image {
+            background:url(../images/v1.jpg); position: relative; width: 1500px; height: 850px; display: block; margin-left: -37px; margin-top: -130px;
+        }
+
+        .header-image .logo {
+          border-radius: 8px; background-color: #f0c600; border-bottom: 5px solid rgb( 150, 126, 11 );
+          position: absolute; right: -20px; top: 187px; width: 680px; height: 130px; z-index: 215;
+        }
+
+         #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #493d35; }
+        .header-image .logo h1 { font-family: 'Hagin Caps Medium'; font-size: 78px; color: #493d35;
+        border-radius: 8px; }
+
+
+        .no-auto p { font-family: 'PT Sans'; font-size: 20pt; color: #938779; padding-left: 6em; padding-right: 6em; }
+
+        .form-feedback { width: 100%; height: 250px; margin-bottom: 40px; }
+
+        .form-feedback h1 { color: #7e6758; font-size: 43px; font-family: 'Hagin Caps Medium'; margin: 0 auto; display: block; text-align: center;
+        margin-bottom: 0.5em;}
+
+        .icn { width: 35px; margin-right: 5px; color: #92806f; font-size: 20pt; text-align: center; }
+
+
+         .btn-send:hover {
+         background: #d77f47;
+         }
+
+         .btn-send {
+                width: 90%;
+                margin: 0 auto;
+                background: #d28c5f;
+                display: block;
+                cursor: pointer;
+                padding: 0.15em 0.5em 0.15em 0.5em;
+                color: #fff;
+                margin-top: 15px;
+                border-bottom: 3px solid #ac6233;
+                font-family: 'PT Sans';
+                text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+                font-size: 18pt;
+                border-radius: 5px;
+                text-decoration: none;
+                outline: 0;
+
+                -moz-transition: background 0.8s ease;
+                -webkit-transition: background 0.8s ease;
+                -o-transition: background 0.8s ease;
+                -ms-transition: background 0.8s ease;
+                transition: background 0.8s ease;
+         }
+
+         .form-feedback form textarea {
+          border: 2px solid rgba( 207, 187, 175, 0.8 );
+          border-radius: 5px;
+          background-color: rgb( 247, 244, 233 );
+          position: relative; margin: 0 auto;
+            width: 90%;
+          font-size: 14px;
+          min-height: 6em !important;
+        }
+
+        .box-info {
+          position: relative;
+          padding: 1em 2em 1em 7em;
+          border-radius: 8px;
+          font-family: 'Open Sans Condensed';
+          font-size: 24pt;
+          width: 90%; margin: 0 auto;
+          color: #5f5249;
+          text-align: left;
+          box-shadow: 0 5px 18px rgba(85,74,66,0.3);
+        }
+
+        .s1 { background-color: rgb( 246,243, 235);  border-bottom: 10px solid #adb959; border-top: 1px dotted #b9bca7; }
+
+        .s2 { background-color: rgb( 246,243, 235); margin-bottom: 2em; border-bottom: 10px solid #cf9772; border-top: 1px dotted #bba190; }
+
+        .s2 i { color: #d28c5f; text-shadow: 0px 3px 0px #b1693b; }
+
+        .s1 i { color: #d28d61; text-shadow: 0px 2px 0px rgb( 172, 98, 51 ); }
+
+        .box-info .grn {
+            color: #8ea106; text-shadow: 0px 3px 0px #798908; }
+
+        .box-info i {
+          font-size: 78pt;
+
+          position: absolute;
+          left: 65px;
+          top: 55px;
+
+        }
+
+
+        .sub { }
+        .sub h1 { font-family: 'Hagin Caps Medium'; font-size:45pt; color: #65564c; text-align: center; }
+        .sub h2 { font-family: 'Open Sans Condensed'; font-style: italic; font-size:36pt; color: #a28979; text-align: center; margin-top: 0.3em; }
+        .icn-btn {  }
+
+        .hd2 h1 { font-size: 50pt; }
+
+                .btn-go:hover { background: #a4b71d; }
+
+                .btn-go {   transition: background 0.8s ease; margin-top: 1em;
+                                background: #8EA106; border-radius: 8px; border-bottom: 4px solid #677506;
+                                display: inline-block; cursor: pointer; padding: 0.5em 1.5em 0.5em 1.5em;
+                                color: white; font-size: 20pt; font-family: 'PT Sans'; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+
+                            .btn-go i {margin-right: 15px; color: #fff; margin-left: -15px; font-size: 25pt; text-align: center; }
