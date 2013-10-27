@@ -1,20 +1,20 @@
         .header-image {
-            background:url(../images/v1.jpg); position: relative; width: 1500px; height: 850px; display: block; margin-left: -37px; margin-top: -130px;
+            background:url(../images/v1.jpg); position: relative; width: 1500px; height: 850px; display: block; margin-left: -43px; margin-top: -130px;
         }
 
-        .header-image .logo {
+        .logo-top {
           border-radius: 8px; background-color: #f0c600; border-bottom: 5px solid rgb( 150, 126, 11 );
-          position: absolute; right: -20px; top: 187px; width: 680px; height: 130px; z-index: 215;
+          position: absolute; right: -20px; top: 5em; z-index: 215; padding: 0.3em 2em 0.3em 1.5em;
         }
 
          #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #493d35; }
-        .header-image .logo h1 { font-family: 'Hagin Caps Medium'; font-size: 78px; color: #493d35;
+         .logo-top h1 { font-family: 'Hagin Caps Medium'; font-size: 3.4em; color: #493d35;
         border-radius: 8px; }
 
 
         .no-auto p { font-family: 'PT Sans'; font-size: 20pt; color: #938779; padding-left: 6em; padding-right: 6em; }
 
-        .form-feedback { width: 100%; height: 250px; margin-bottom: 40px; }
+        .form-feedback { width: 100%; height: 250px; margin-bottom: 10px; }
 
         .form-feedback h1 { color: #7e6758; font-size: 43px; font-family: 'Hagin Caps Medium'; margin: 0 auto; display: block; text-align: center;
         margin-bottom: 0.5em;}

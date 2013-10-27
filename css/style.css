@@ -895,10 +895,10 @@
 		width: 405px;
 		height: 100%;
 		color: #fff;
+		border-right: 6px solid rgb(194,112,58);
 
-		  border-right: 6px solid rgb( 194, 112, 58 );
-		  background: url(../images/bg/panel-bg-1b.png) repeat;
-		  box-shadow: 4px 0px 29px 0px rgba( 95, 87, 77, 0.3 );
+		 background: url(../images/bg/panel-bg-1b.png) repeat;
+		 box-shadow: 4px 0px 29px 0px rgba( 95, 87, 77, 0.3 );
 
 
 		text-align: left;
@@ -1002,7 +1002,7 @@
 					color: #624f42;
 					border-bottom: 4px solid rgba(212,168,140,0.3);
 					font-family: 'PT Sans Narrow';
-					font-size: 24pt;
+					font-size: 26pt;
 					border-radius: 5px;
 					text-decoration: none;
 					outline: 0;
