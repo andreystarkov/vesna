@@ -29,13 +29,13 @@
          .btn-send {
                 width: 90%;
                 margin: 0 auto;
-                background: #d28c5f;
+
                 display: block;
                 cursor: pointer;
                 padding: 0.15em 0.5em 0.15em 0.5em;
                 color: #fff;
                 margin-top: 15px;
-                border-bottom: 3px solid #ac6233;
+                border-bottom: 3px solid #ac6233;  background: #d28c5f;
                 font-family: 'PT Sans';
                 text-shadow: 0 1px 0 rgba(0,0,0,0.3);
                 font-size: 18pt;
@@ -78,6 +78,10 @@
 
         .s2 i { color: #d28c5f; text-shadow: 0px 3px 0px #b1693b; }
 
+        .s3 { background-color: #F2F2F2; margin-bottom: 2em; border-bottom: 10px solid #5787A5; border-top: 1px dotted #5787A5; }
+
+        .s3 i { color: #5787A5; text-shadow: 0px 3px 0px #1C578C; }
+
         .s1 i { color: #d28d61; text-shadow: 0px 2px 0px rgb( 172, 98, 51 ); }
 
         .box-info .grn {
@@ -100,11 +104,25 @@
 
         .hd2 h1 { font-size: 50pt; }
 
-                .btn-go:hover { background: #a4b71d; }
+        .btn-1:hover { background: #a4b71d; }
+        .btn-2:hover { background: #71AFD6; }
+        .btn-3:hover { background: #e49c6d; }
+        .btn-4:hover { background: #f0d068; }
 
-                .btn-go {   transition: background 0.8s ease; margin-top: 1em;
-                                background: #8EA106; border-radius: 8px; border-bottom: 4px solid #677506;
-                                display: inline-block; cursor: pointer; padding: 0.5em 1.5em 0.5em 1.5em;
-                                color: white; font-size: 20pt; font-family: 'PT Sans'; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .btn-go {  transition: background 0.8s ease; margin-top: 1em;
+                        border-radius: 8px;
+                        display: inline-block; cursor: pointer; padding: 0.5em 1.5em 0.5em 1.5em;
+                        font-size: 20pt; font-family: 'PT Sans'; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+
+        .btn-1 {  background: #8EA106; border-bottom: 4px solid #677506;
+
+                        color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+
+        .btn-2 {   border-bottom: 4px solid #1C578C;  background: #5787A5;
+               color: #F2F2F2; text-shadow: 0 2px 4px rgba(0,0,0,0.3);  }
+
+        .btn-3 {  border-bottom: 4px solid #ac6233;  background: #d28c5f; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+
+        .btn-4 {  border-bottom: 6px solid #dbb537;  background: #EFC94C; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.4); }
 
                             .btn-go i {margin-right: 15px; color: #fff; margin-left: -15px; font-size: 25pt; text-align: center; }

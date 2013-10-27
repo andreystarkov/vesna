@@ -39,13 +39,15 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<style>
+
 		.tt-img { position: relative; overflow: hidden; }
 		.tt-img span { position: absolute; top: -300px; width: 300px; height: 230px; left: 0;
 			background: rgba(110,92,81,0.6); display: block; padding: 50px; box-shadow: inset 0 10px 40px rgba(240,237,224,0.6);
-
 		}
+
 		.tt-img span i { position: relative; font-size:115px; color: rgba(240,237,224,0.85); text-shadow: 0 0 25px rgba(88,71,58,0.8); }
          #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #493d35; }
+
 		</style>
 
 	</head>
@@ -67,11 +69,11 @@
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref">
 									<span><i class="icn fa fa-home"></i> О проекте</span></a></li>
 
-								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref">
-									<span><i class="icn fa fa-hospital"></i> Инфраструктура</span></a></li>
-
-								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref">
+								<li><a href="#design" id="about-link" class="skel-panels-ignoreHref">
 									<span><i class="icn fa fa-pencil-square-o"></i> Дизайн квартир</span></a></li>
+
+								<li><a href="#struct" id="portfolio-link" class="skel-panels-ignoreHref">
+									<span><i class="icn fa fa-hospital"></i> Инфраструктура</span></a></li>
 
 								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref">
 									<span><i class="icn fa fa-cogs"></i> Технологии строительства</span></a></li>
@@ -131,14 +133,14 @@
 							<div class="box-info s1"><i class="fa-leaf fa grn"></i>Удобное расположение вблизи леса и водоема создают благотворную экологическую обстановку. Благодаря удаленности от промышленных зон и больших транспортных магистралей, воздух не загрязнен промышленными выбросами.</div>
 
 							<footer>
-								<a href="#portfolio" class="btn-go scrolly"><i class="fa-angle-down fa"></i> Перейти к дизайну квартир</a>
+								<a href="#design" class="btn-go scrolly btn-1"><i class="fa-angle-down fa"></i> Перейти к дизайну квартир</a>
 							</footer>
 
 						</div>
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="design" class="two">
 						<div class="container">
 
 							<header class="sub hd2">
@@ -165,22 +167,33 @@
 							<nav>
 								<a class="tt-current"></a><a></a><a></a><a></a>
 							</nav>
+
+							<footer>
+								<a href="#struct" class="btn-go scrolly btn-3"><i class="fa-angle-down fa"></i> Инфраструктура</a>
+							</footer>
+
 						</section>
 
 						</div>
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="struct" class="three">
 						<div class="container">
 
-							<header>
-								<h2></h2>
+							<header class="sub hd2">
+								<h1>Инфраструктура</h1>
 							</header>
 
-							<a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<div style="background: url(images/pic08.jpg); width: 90%; height: 470px; border-radius: 8px; overflow: hidden; position: relative; margin: 0 auto; box-shadow: 0 0 80px rgba(0,0,0,0.2);"></div></a>
 
-							<p></p>
+							<div class="box-info s3" style="margin-top: 3em">
+							<i class="fa-hospital fa"></i> Благодаря талантливой планировке, «Весенний квартал» являет собой настоящий город вне города. Удобная транспортная развязка, наличие двух детских садов, игровые площадки, закрытые дворы, просторные парковки, огражденная территория — все это делает микрорайон безопасным, удобным и уютным местом для жизни
+							</div>
+
+							<footer>
+								<a href="#contact" class="btn-go scrolly btn-2"><i class="fa-angle-down fa"></i> Связаться с нами</a>
+							</footer>
 
 						</div>
 					</section>
@@ -189,25 +202,25 @@
 					<section id="contact" class="four">
 						<div class="container">
 
-							<header>
-								<h2></h2>
+							<header class="sub">
+								<h1 style="font-size: 52pt">Есть вопросы? Напишите нам.</h1>
 							</header>
 
 							<p></p>
 
 							<form method="post" action="#">
 								<div class="row half">
-									<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
+									<div class="6u"><input type="text" class="text" name="name" placeholder="Имя" /></div>
+									<div class="6u"><input type="text" class="text" name="email" placeholder="Обратная связь" /></div>
 								</div>
 								<div class="row half">
 									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Сообщение"></textarea>
 									</div>
 								</div>
 								<div class="row">
 									<div class="12u">
-										<a href="#" class="button submit">Send Message</a>
+										<a href="#" class="submit btn-go btn-4"><i class="fa-comment-o fa"></i> Отправить сообщение</a>
 									</div>
 								</div>
 							</form>
@@ -222,7 +235,7 @@
 
 				<!-- Copyright -->
 					<div class="copyright">
-						<p>&copy; 2013</p>
+						<p>&copy; 2013 &mdash; Andrey Starkov.</p>
 						<ul class="menu">
 							<li></li>
 							<li></li>
