@@ -11,17 +11,35 @@
     }
 
     .layer-house { opacity: 1; width: 100%; position: absolute; height: 745px; top: 0px; left: -5%;
-      background: url(../images/px/house-1b.png) left top; z-index: 500; }
+       z-index: 500; }
+
+    @media only screen and (max-device-width: 960px) {
+
+    .layer-house { background: url(../images/px/house-1000.png) left top; }
+    .layer-bg { background: url(../images/px/bg-1000.jpg) left top; }
+    }
+
+    @media only screen and (max-device-width: 1280px) {
+     .layer-house { background: url(../images/px/house-1300.png) left top; }
+     .layer-bg { background: url(../images/px/bg-1300.jpg) left top; }
+    }
+
+    @media only screen and (min-device-width: 1600px) {
+     .layer-bg { background: url(../images/px/bg-1b.jpg) left top; }
+     .layer-house { background: url(../images/px/house-1b.png) left top;  }
+    }
+
+
 
     .layer-bg { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -5%;
-      background: url(../images/px/bg-1b.jpg) left top; }
-
+      }
+  /*
   .cloud-1 { z-index: 200; left: 40px; top: 40px; width: 541px; height: 427px; background: url(../images/px/c5.png) top center; position: absolute; }
   .cloud-2 { z-index: 200; width: 802px; height: 603px; background: url(../images/px/c2.png) top center; position: absolute; }
   .cloud-3 { z-index: 200; right: 70px; top: 20px; width: 575px; height: 336px; background: url(../images/px/c3.png) top center; position: absolute; }
   .cloud-4 { z-index: 200; left: 400px; top: 100px; width: 549px; height: 435px; background: url(../images/px/c4.png) top center; position: absolute; }
   .cloud-15 { width: 321px; height: 255px; background: url(../images/px/c5.png) top center; position: absolute; }
-
+ */
     .logo-top {
       border-radius: 8px; background-color: #f0c600; border-bottom: 5px solid rgb( 150, 126, 11 );
       position: absolute; right: -20px; top: 5em; z-index: 215; padding: 0.3em 2em 0.3em 1.5em;

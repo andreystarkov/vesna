@@ -31,6 +31,10 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+	.img-mobile { background: url(../images/px/bg-960.jpg) top center; width: 100%; height: 470px;
+	overflow: hidden; position: absolute; top: 0; left: 0;
+	 box-shadow: 0 0 80px rgba(0,0,0,0.2); }
+	 .header-image { display: none; }
 	#header
 	{
 		position: relative;
@@ -38,12 +42,12 @@
 		background: none !important;
 		box-shadow: none !important;
 	}
-	
+
 		#header .top
 		{
 			position: relative;
 		}
-	
+
 		#header .bottom
 		{
 			border-top: solid 1px rgba(255,255,255,0.05);
@@ -61,24 +65,25 @@
 	#nav
 	{
 	}
-	
+
 		#nav ul
 		{
 		}
-		
+
 			#nav ul li
 			{
 			}
-			
+
 				#nav ul li a
 				{
-					padding: 0.5em 1.25em 0.5em 1.25em;
+					padding: 0.3em 1em 0.3em 1em;
+					font-size: 16px;
 				}
 
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
+
 	#footer
 	{
 		margin-left: 0;
@@ -99,14 +104,14 @@
 
 	#sidePanel
 	{
-		background: #222729 url('images/overlay.png');
+		background: #e4decc;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.125);
 	}
 
 	#sidePanelToggle
 	{
 	}
-	
+
 		#sidePanelToggle .toggle
 		{
 			position: absolute;
@@ -114,7 +119,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(128,136,144,0.5) url('images/toggle.svg') center center no-repeat;
+			background: rgba(128,136,144,0.7) url('images/toggle.svg') center center no-repeat;
 			border-radius: 0.35em;
 			margin: 0.25em;
 		}
