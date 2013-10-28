@@ -36,10 +36,25 @@ jQuery(function(){
       frictionX: 0.2,
       frictionY: 0.8
     });
+
+
+
     $('#nav ul li a').hover(function(){
 
-        $('i', this).transition({'color': '#e77327', rotate: '+=360deg'});
+        if ( $(this).hasClass("active") ) {
+       //     $(this).transition({ borderBottomColor: 'rgba(202,151,4,1)'});
+        } else {
+          $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', borderBottomColor: 'rgba(212,168,140,0.9)'});
+          $('i', this).transition({'color': '#e77327', rotate: '+=360deg'});
+        }
+
     }, function(){
+
+        if ( $(this).hasClass("active") ) {
+          //  $(this).transition({ borderBottomColor: 'rgba(202,151,4,0.7)'});
+        } else {
+          $(this).transition({boxShadow: 'inset 0 0 20px rgba(86,73,65,0)', borderBottomColor: 'rgba(212,168,140,0.3)'});
+        }
         $('i', this).transition({'color': '#624f42'});
     });
 

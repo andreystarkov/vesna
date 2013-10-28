@@ -1006,7 +1006,7 @@
 					border-radius: 5px;
 					text-decoration: none;
 					outline: 0;
-
+					font-weight: 500;
 					-moz-transition: background 0.8s ease;
 					-webkit-transition: background 0.8s ease;
 					-o-transition: background 0.8s ease;
@@ -1039,7 +1039,7 @@
 
 						background: linear-gradient(to bottom,  rgba(252,247,225,0.73) 0%,rgba(238,192,1,0.75) 100%); /* W3C */
 						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6efcf7e1', endColorstr='#a6eec001',GradientType=0 ); /* IE6-9 */
-
+						font-weight: 520;
 						box-shadow: inset 0 0 5px rgba(255,255,255,0.7);
 						background: #f0c600;
 						border-bottom: 4px solid rgba(202,151,4, 0.8);
