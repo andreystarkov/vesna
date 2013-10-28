@@ -54,6 +54,34 @@
 
     .s1 i { color: #d28d61; text-shadow: 0px 2px 0px rgb( 172, 98, 51 ); }
 
+    .s5 { background-color: #F2F2F2; margin-bottom: 2em; border-bottom: 10px solid #334D5C; border-top: 1px dotted #45697D;}
+    .s5 i { color: #DF5A49; text-shadow: 0px 2px 0px #ccb5b5; }
+
+    .s4 { background-color: #F2F2F2; margin-bottom: 2em; border-bottom: 10px solid #009872; border-top: 1px dotted #ccb5b5;}
+    .s4  i { color: #DF5A49; text-shadow: 0px 2px 0px #ccb5b5; }
+
+    .modal-content {
+      position: relative;
+      background-color: rgb(246,243,235);
+      border-bottom: 7px solid #cf9772;
+      border: 1px dotted #bba190;
+      border-radius: 6px;
+      -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      background-clip: padding-box;
+      outline: none;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1030;
+      background-color: rgba(110,92,81,0.6);
+    }
+
     .btn-1:hover { background: #a4b71d; }
     .btn-2:hover { background: #71AFD6; }
     .btn-3:hover { background: #e49c6d; }
@@ -63,6 +91,8 @@
                     border-radius: 8px;
                     display: inline-block; cursor: pointer; padding: 0.5em 1.5em 0.5em 1.5em;
                     font-size: 20pt; font-family: 'PT Sans'; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+
+     .btn-small { padding: 0.2em 0.8em 0.2em 0.8em; margin-top: 0.3em; }
 
     .round { position: relative; overflow: hidden; border-radius: 50%; height: 100px; width: 100px; }
     .round i { position: absolute;  }

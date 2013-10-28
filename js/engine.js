@@ -57,7 +57,7 @@ jQuery(function(){
             $(this).append('<i class="fa-angle-double-down fa i-2"></i>');
           }
     });
-
+$('.carousel').carousel();
     $('.round').hover(function(){
 
         $('.i-1', this).transition({top: '250px', opacity:0});
@@ -66,13 +66,16 @@ jQuery(function(){
         $('.i-1', this).transition({top: '15px', opacity:1});
         $('.i-2', this).transition({top: '-250px', opacity:0});
     });
+    $('#nav ul li a').click(function(){
+      $('i', this).transition({'color': '#2b2521'});
+    });
 
     $('#nav ul li a').hover(function(){
 
         if ( $(this).hasClass("active") ) {
        //     $(this).transition({ borderBottomColor: 'rgba(202,151,4,1)'});
         } else {
-          $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', borderBottomColor: 'rgba(212,168,140,0.9)'}, {queue: false});
+          $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', borderBottomColor: 'rgba(212,168,140,0.7)'}, {queue: false, duration: 600});
           $('i', this).transition({'color': '#e77327', rotate: '+=360deg'});
         }
 
@@ -81,7 +84,7 @@ jQuery(function(){
         if ( $(this).hasClass("active") ) {
           //  $(this).transition({ borderBottomColor: 'rgba(202,151,4,0.7)'});
         } else {
-          $(this).transition({boxShadow: 'inset 0 0 0 rgba(86,73,65,0)', borderBottomColor: 'rgba(212,168,140,0.3)'});
+          $(this).transition({boxShadow: 'inset 0 0 0 rgba(86,73,65,0)', borderBottomColor: 'rgba(212,168,140,0.3)'}, {queue: false, duration: 600});
         }
         $('i', this).transition({'color': '#624f42'});
     });

@@ -5,6 +5,7 @@
 	body
 	{
 		background: #fff;
+		min-height:100%;
 	}
 
 	body,input,textarea,select
