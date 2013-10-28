@@ -24,6 +24,16 @@ jQuery(function(){
     });
 
 */
+
+        $('.tt-img span').html('<i class="fa fa-eye"></i>');
+      $('.tt-img').hover(function(){
+
+        $('span', this).animate({top: '0px'});
+
+      }, function(){
+        $('span',this).animate({top: '-250px'});
+      });
+
     $('#scene').parallax({
       calibrateX: false,
       calibrateY: true,
@@ -37,14 +47,32 @@ jQuery(function(){
       frictionY: 0.8
     });
 
+    $('.round').each( function(){
 
+          if( $(this).html() == "" ) {
+            $(this).html('<i class="fa-angle-down fa i-1"></i><i class="fa-angle-double-down fa i-2"></i>');
+          }
+
+          if( $('.i-2', this).length == 0 ){
+            $(this).append('<i class="fa-angle-double-down fa i-2"></i>');
+          }
+    });
+
+    $('.round').hover(function(){
+
+        $('.i-1', this).transition({top: '250px', opacity:0});
+        $('.i-2', this).transition({top: '18px', opacity:1});
+    }, function(){
+        $('.i-1', this).transition({top: '15px', opacity:1});
+        $('.i-2', this).transition({top: '-250px', opacity:0});
+    });
 
     $('#nav ul li a').hover(function(){
 
         if ( $(this).hasClass("active") ) {
        //     $(this).transition({ borderBottomColor: 'rgba(202,151,4,1)'});
         } else {
-          $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', borderBottomColor: 'rgba(212,168,140,0.9)'});
+          $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', borderBottomColor: 'rgba(212,168,140,0.9)'}, {queue: false});
           $('i', this).transition({'color': '#e77327', rotate: '+=360deg'});
         }
 
@@ -53,7 +81,7 @@ jQuery(function(){
         if ( $(this).hasClass("active") ) {
           //  $(this).transition({ borderBottomColor: 'rgba(202,151,4,0.7)'});
         } else {
-          $(this).transition({boxShadow: 'inset 0 0 20px rgba(86,73,65,0)', borderBottomColor: 'rgba(212,168,140,0.3)'});
+          $(this).transition({boxShadow: 'inset 0 0 0 rgba(86,73,65,0)', borderBottomColor: 'rgba(212,168,140,0.3)'});
         }
         $('i', this).transition({'color': '#624f42'});
     });

@@ -117,6 +117,7 @@
 						x.link = l;
 						x.object = o;
 						elements[ids[k]] = x;
+
 						links = links.add(l);
 					}
 
@@ -191,14 +192,6 @@
 
 // Ready stuff
 	jQuery(function() {
-				$('.tt-img span').html('<i class="fa fa-eye"></i>');
-			$('.tt-img').hover(function(){
-
-				$('span', this).animate({top: '0px'});
-
-			}, function(){
-				$('span',this).animate({top: '-250px'});
-			})
 
 		var $window = $(window),
 			_IEVersion = (navigator.userAgent.match(/MSIE ([0-9]+)\./) ? parseInt(RegExp.$1) : 99);
