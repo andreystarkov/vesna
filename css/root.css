@@ -1,6 +1,13 @@
         .header-image {
-            background:url(../images/v1.jpg); position: relative; width: 1500px; height: 850px; display: block; margin-left: -43px; margin-top: -130px;
+            position: relative; width: 1550px; height: 745px; display: block; margin-left: 0px; margin-top: -70px;
+            margin-bottom: 3em;
         }
+
+        .layer-house { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -5%;
+          background: url(../images/px/house-1.png) left top; }
+
+        .layer-bg { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -5%;
+          background: url(../images/px/bg-1.jpg) left top; }
 
         .logo-top {
           border-radius: 8px; background-color: #f0c600; border-bottom: 5px solid rgb( 150, 126, 11 );
@@ -14,7 +21,7 @@
 
         .no-auto p { font-family: 'PT Sans'; font-size: 20pt; color: #938779; padding-left: 6em; padding-right: 6em; }
 
-        .form-feedback { width: 100%; height: 250px; margin-bottom: 10px; }
+        .form-feedback { width: 100%; height: 250px; margin-bottom: 1 0px; }
 
         .form-feedback h1 { color: #7e6758; font-size: 43px; font-family: 'Hagin Caps Medium'; margin: 0 auto; display: block; text-align: center;
         margin-bottom: 0.5em;}
@@ -99,7 +106,7 @@
 
         .sub { }
         .sub h1 { font-family: 'Hagin Caps Medium'; font-size:45pt; color: #65564c; text-align: center; }
-        .sub h2 { font-family: 'Open Sans Condensed'; font-style: italic; font-size:36pt; color: #a28979; text-align: center; margin-top: 0.3em; }
+        .sub h2 { font-family: 'Open Sans Condensed'; font-style: italic; font-size:36pt; color: #a28979; text-align: center; margin-top: 0.1em; }
         .icn-btn {  }
 
         .hd2 h1 { font-size: 50pt; }

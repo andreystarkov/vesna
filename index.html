@@ -30,15 +30,6 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-
-		<script src="js/colors.js"></script>
-		<script src="js/transit.js"></script>
-		<script src="js/shadow.js"></script>
-		<script src="js/easing.js"></script>
-
-		<script src="js/engine.js"></script>
-		<script src="js/init.js"></script>
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
@@ -130,7 +121,12 @@
 					<section id="top" class="one">
 						<div class="container no-auto">
 
-							<div class="header-image"></div>
+							<div class="header-image"><
+								<ul id="scene" class="scene">
+									<li class="layer" data-depth="0.40"><div class="layer-bg trigger"></div></li>
+									<li class="layer" data-depth="1.50"><div class="layer-house trigger"></div></li>
+								</ul>
+							</div>
 							<div class="logo-top"><h1>Весенний квартал</h1></div>
 
 							<header class="sub" style="margin-top: 1.5em">
@@ -253,8 +249,21 @@
 
 			</div>
 
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<script src="js/colors.js"></script>
+		<script src="js/transit.js"></script>
+		<script src="js/shadow.js"></script>
+		<script src="js/easing.js"></script>
+
+		<script src="js/parallax.js"></script>
+		<script src="js/engine.js"></script>
+		<script src="js/init.js"></script>
+
 		<script src="js/classie.js"></script>
+		<script src="js/requestAnimationFrame.js"></script>
 		<script src="js/thumbnailGridEffects.js"></script>
+
 		<!-- Button trigger modal -->
 
 

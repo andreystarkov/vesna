@@ -988,7 +988,7 @@
 			{
 			}
 				#nav ul li a:hover {
-					background: rgba(247,241,221,0.8);
+					background: rgba(247,241,221,0.9);
 				}
 
 				#nav ul li a
@@ -1130,5 +1130,5 @@
 
 		#main > section.four
 		{
-					background: url(../images/bg/panel-bg-1.png) repeat;
+					background: url(../images/bg/panel-bg-4.png) repeat;
 		}
