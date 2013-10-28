@@ -1,4 +1,7 @@
+var map;
+
 jQuery(function(){
+
 
     if($(window).width() < 1400){
         $('#nav ul li a i').css({'display': 'none'});
@@ -25,7 +28,7 @@ jQuery(function(){
 
 */
 
-        $('.tt-img span').html('<i class="fa fa-eye"></i>');
+        $('.tt-img span').html('<i class="fa fa-search"></i>');
       $('.tt-img').hover(function(){
 
         $('span', this).animate({top: '0px'});
