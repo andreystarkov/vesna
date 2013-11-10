@@ -20,7 +20,7 @@ jQuery(function(){
       //  $('.header-image').css({'display': 'none'});
         $('#nav ul li a i').css({'display': 'none'});
         $('#nav ul li a').css({'padding-left': '10px'});
-        $('#nav ul li a span').css({'font-size': '14px'});
+        $('#nav ul li a span').css({'font-size': '16px'});
 
           $('.first-sub').css({'margin-top': '20em'});
 
