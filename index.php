@@ -20,7 +20,6 @@
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" type="text/css" href="css/root.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -29,7 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link href="font/font.css" rel="stylesheet" type="text/css" />
+		<link href="fonts/hagincaps/font.css" rel="stylesheet" type="text/css" />
 
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 
@@ -37,6 +36,9 @@
 
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.js"></script>
+
+        <script type="text/javascript" charset="utf-8"
+        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=8sJwVSl9oGgEvht_NHsdsVhHtxO1yyhq&id=mymap"></script>
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
@@ -73,8 +75,8 @@
 								<li><a href="#design" id="design-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-pencil-square-o"></i> Дизайн квартир</span></a></li>
 
-							<!--	<li><a href="#struct" id="struct-link" class="skel-panels-ignoreHref">
-									<span><i class="icn icn fa fa-hospital"></i> Инфраструктура</span></a></li> -->
+								<li><a href="#struct" id="struct-link" class="skel-panels-ignoreHref">
+									<span><i class="icn icn fa fa-hospital"></i> Инфраструктура</span></a></li>
 
 								<li><a href="#tech" id="tech-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-cogs"></i> Технологии строительства</span></a></li>

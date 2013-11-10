@@ -1,4 +1,4 @@
-var map;
+  var map;
 
 jQuery(function(){
 
@@ -29,6 +29,14 @@ jQuery(function(){
 
     }
 
+    $('.box-info').hover(function(){
+        $(this).fadeTo(1, 500);
+        $('i', this).transition({scale: '1.1', rotate: '+=15deg', x: '5px', textShadow: '0 10px 1px rgba(0,0,0,0.15)'});
+    },function(){
+       $(this).fadeTo(0.9, 500);
+       $('i', this).transition({scale: '1', rotate: '-=15deg',x:'0', textShadow: '0 0 0 rgba(0,0,0,0)'});
+    })
+
     if( ($(window).width() > 480) &&($(window).width() < 960)){
       $('.tt-gird').css({'max-width': '100%'});
       $('#header').css({'width': '450px'});
@@ -36,6 +44,7 @@ jQuery(function(){
 
     if($(window).width() > 1600){
          $('.tt-grid').css({'width': '110%', 'max-width': '110%'});
+         $('#nav ul li a span').css({'font-size': '1em'});
     }
 
     if($(window).width() < 1200){

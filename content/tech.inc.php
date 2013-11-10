@@ -7,22 +7,21 @@
                     <header class="sub hd2">
                         <h1>Технологии строительства</h1>
                     </header>
+                        <div id="carousel-tech" class="carousel slide page-slider">
 
-                    <div id="carousel-example-generic" class="carousel slide page-slider">
+                          <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/tech/b1.jpg" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item"><img src="images/tech/b2.jpg" alt="..."></div>
+                            <div class="item"><img src="images/tech/b3.jpg" alt="..."></div>
+                            <div class="item"><img src="images/tech/b4.jpg" alt="..."></div>
+                          </div>
 
-                      <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="images/tech/1.jpg" alt="...">
-                            <div class="carousel-caption"></div>
+                          <a class="left carousel-control" href="#carousel-tech" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
+                          <a class="right carousel-control" href="#carousel-tech" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
                         </div>
-                        <div class="item"><img src="images/tech/2.jpg" alt="..."></div>
-                        <div class="item"><img src="images/tech/3.jpg" alt="..."></div>
-                        <div class="item"><img src="images/tech/4.jpg" alt="..."></div>
-                      </div>
-
-                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
-                      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
-                    </div>
 
                     <div class="box-info s1" style="margin-top: 3em">
                     <i class="icn fa-cogs fa"></i>

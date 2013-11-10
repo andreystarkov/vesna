@@ -4,25 +4,35 @@
        by Andrey Starkov
        im@andreystarkov.ru
     */
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic&subset=latin,cyrillic);
     @import "http://webfonts.ru/import/bebasneue.css";
- /* font-family: 'Arsenal'; */
-    @import "http://webfonts.ru/import/arsenal.css";
+ /*
+    @import "http://webfonts.ru/import/arsenal.css"; font-family: 'Arsenal';
     @import "http://webfonts.ru/import/boblic.css";
     @import "http://webfonts.ru/import/ubuntu.css";
-    @import "http://webfonts.ru/import/bravo.css";
+    @import "http://webfonts.ru/import/bravo.css";*/
+    @import "http://webfonts.ru/import/fontin.css"; /* font-family: 'Fontin Sans'; */
+    @import "http://webfonts.ru/import/marmelad.css"; /* font-family: 'Marmelad'; */
+    @import "http://webfonts.ru/import/noto.css"; /* font-family: 'Noto Sans'; */
+    @import "http://webfonts.ru/import/permian.css";  /* font-family: 'Permian'; */
 
-    #nav ul li a { font-family: 'Bebas Neue'; font-size: 22pt; }
+    .page-slider { box-shadow: 0 7px 25px rgba(51,45,41,0.4);}
+     #nav ul li a { font-family: 'Bebas Neue'; font-size: 22pt; }
+     header h1 { font-family: 'Hagin Caps Medium'; font-size:45pt; color: #65564c; text-align: center; }
+     header h2 { font-family: 'Open Sans Condensed'; font-size:32pt; font-style:italic; font-weight: 300; color: #514944; text-align: center; margin-top: 0.1em; }
+     .box-info p { font-family: 'Noto Sans'; font-size:18pt; line-height: 1.7em; color: #2f2c29;}
+     .btn { font-family: 'PT Sans'; }
 
-    .box-info p { font-family: 'Arsenal'; font-size: 22pt;
-  font-size: 22pt; color: #938779; padding-left: 2em; text-indent: 1.2em; padding-top: 0.7em; padding-right: 1em;}
+    .box-info p { padding-left: 2em; text-indent: 1.2em;  padding-right: 0.8em;}
 
     .box-info .icn { font-size: 78pt; position: absolute; left: 65px; top: 25%; }
     .first-sub { position: relative; z-index: 60;}
 
-    .box-info { position: relative; padding: 1em 2em 1em 7em; border-radius: 8px; width: 90%; margin: 0 auto; color: #5f5249; text-align: left; box-shadow: 0 5px 18px rgba(85,74,66,0.3); }
+    .box-info { opacity: 0.9; position: relative; padding: 1.7em 1.5em 1em 7em; border-radius: 8px; width: 90%; margin: 0 auto;
+      color: #5f5249; text-align: left; box-shadow: 0 5px 18px rgba(85,74,66,0.3); }
 
     #header { padding-top: 2em;}
-
+    .button-send .icn { color: #fff;}
     .dummy-image {  width: 90%; height: 470px; border-radius: 8px; overflow: hidden; position: relative; margin: 0 auto; box-shadow: 0 0 80px rgba(0,0,0,0.2); }
 
     .carousel-control i { font-size: 200%; margin-top: 110%; text-shadow: 0 3px 6px rgba(0,0,0,0.7);}
@@ -151,7 +161,7 @@
     .btn-go {  transition: background 0.8s ease; margin-top: 1em;
                     border-radius: 8px;
                     display: inline-block; cursor: pointer; padding: 0.5em 1.5em 0.5em 1.5em;
-                    font-size: 20pt; font-family: 'PT Sans'; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+                    font-size: 20pt; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
 
      .btn-small { padding: 0.2em 0.8em 0.2em 0.8em; margin-top: 0.3em; }
     .button-send { position: relative; margin: 0px auto; padding: 15px 30px 15px 30px; z-index:666; border-radius: 8px;}
@@ -183,8 +193,6 @@
     .hidden { opacity: 0; }
 
     .sub { }
-     header h1 { font-family: 'Hagin Caps Medium'; font-size:45pt; color: #65564c; text-align: center; }
-     header h2 { font-family: 'Open Sans Condensed'; font-style: italic; font-size:36pt; color: #a28979; text-align: center; margin-top: 0.1em; }
     .icn-btn {  }
 
     .hd2 h1 { font-size: 50pt; }

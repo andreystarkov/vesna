@@ -4,7 +4,7 @@
 
 function includeContent(){
     include "content/design.inc.php";
-  //  include "content/infrastructure.inc.php";
+    include "content/struct.inc.php";
     include "content/tech.inc.php";
     include "content/deadline.inc.php";
     include "content/cart.inc.php";

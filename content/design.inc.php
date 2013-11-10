@@ -7,7 +7,7 @@
                     <header class="sub hd2">
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
-
+                    <div style="background: url(images/pg/1.jpg); height: 320px; margin-bottom: 35px"class="dummy-image"></div></a>
                     <div class="box-info s2">
                     <i class="icn fa-pencil-square-o fa"></i> <p>Создание интерьера своей мечты — задача не из легких.  Для того, чтобы помочь Вам
                     представить будущую квартиру и сделать ее обустройство легким и приятным, наши
