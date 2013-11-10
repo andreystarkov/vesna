@@ -31,6 +31,11 @@ jQuery(function(){
 
     if( ($(window).width() > 480) &&($(window).width() < 960)){
       $('.tt-gird').css({'max-width': '100%'});
+      $('#header').css({'width': '450px'});
+    }
+
+    if($(window).width() > 1600){
+         $('.tt-grid').css({'width': '110%', 'max-width': '110%'});
     }
 
     if($(window).width() < 1200){

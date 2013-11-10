@@ -9,7 +9,7 @@
 				useOrientation: true,
 				breakpoints: {
 					'widest':	{ range: '1881-', hasStyleSheet: false, containers: 1400, grid: { gutters: 70 } },
-					'wide':	{ range: '961-1920', containers: 1200, grid: { gutters: 40 } },
+					'wide':	{ range: '961-1600', containers: 1200, grid: { gutters: 40 } },
 					'normal':	{ range: '961-1620', containers: 960, grid: { gutters: 40 } },
 					'narrow':	{ range: '961-1220', containers: 'fluid', grid: { gutters: 30 } },
 					'narrower':	{ range: '-960', containers: 'fluid', grid: { gutters: 30 } },
