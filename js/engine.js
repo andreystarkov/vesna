@@ -21,30 +21,25 @@ jQuery(function(){
         $('#nav ul li a i').css({'display': 'none'});
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '14px'});
-        $('.box-info').css({'padding-left': '25px', 'font-size': '16px', 'font-family': 'PT Sans'});
-          $('.logo-top').css({'position': 'relative', 'margin': '0px auto', 'width': '90%', 'right': '0', 'top': '1em'});
-          $('.first-sub').css({'margin-top': '19em'});
-            $('#logo h1').css({'font-size': '25px'});
+
+          $('.first-sub').css({'margin-top': '18em'});
+
             $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
 
     }
 
+    if( ($(window).width() > 480) &&($(window).width() < 960)){
+      $('.tt-gird').css({'max-width': '100%'});
+    }
 
-    if($(window).width() < 1400){
+    if($(window).width() < 1200){
         $('#nav ul li a i').css({'display': 'none'});
         $('#nav ul li a').css({'padding-left': '15px'});
         $('#nav ul li a span').css({'font-size': '1.2em'});
     }
 
-    if(($(window).width() < 1600) && ($(window).width() > 1400)){
 
-        $('#nav ul li a').css({'padding-left': '5px'});
-        $('#nav ul li a span').css({'font-size': '0.6em'});
-        $('.sub h1').css({'font-size': '2.1em'});
-         $('.sub h2').css({'font-size': '1.8em'});
-         $('.header-image').css({'margin-left': '-200px'});
-    }
 /*
     $('#nav ul li a').hover(function(){
         $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', backgroundColor: 'rgba(244,240,229,0.9)', borderBottomColor: 'rgba(212,168,140,0.9)'});

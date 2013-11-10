@@ -7,6 +7,18 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+    .box-info { padding-left: 50; padding-right: 25px;}
+    .box-info i {  padding-top: 0; padding-right:0; padding-left:0; font-size: 75pt;
+        margin: 0px auto; text-align: center; width: 100%; margin-top:5px; margin-bottom: 15px; position: relative;  }
+
+       .box-info p { font-family: 'Arsenal'; font-size: 18pt !important;
+	  font-size: 20pt; color: #938779; padding-left: 2em; text-indent: 0em; padding-top: 0.7em; padding-right: 1em;
+	position: relative;	}
+
+    #nav ul li a span {  font-size: 14pt;}
+
+
+    .box-info .icn { padding-right: 15px; font-size: 68pt; position: relative; float: left; left: 0px; top: 25px; max-width: 150px; height: 130px; }
 
 	body,input,textarea,select
 	{
@@ -22,8 +34,8 @@
 
 		ul.icons
 		{
-		}	
-		
+		}
+
 			ul.icons li
 			{
 			}
@@ -36,16 +48,19 @@
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
-
+	#main
+	{
+		margin-left: 25%;
+	}
 	#header
 	{
-		width: 20%;
+		width: 25%;
 	}
 
 	#logo
 	{
 	}
-	
+
 		#logo .image
 		{
 			position: relative;
@@ -55,27 +70,27 @@
 	#nav
 	{
 	}
-	
+
 		#nav ul
 		{
 		}
-		
+
 			#nav ul li
 			{
 			}
-			
+
 				#nav ul li a
 				{
 					font-size: 0.8em;
 					padding-top: 0.5em;
 					padding-bottom: 0.5em;
 				}
-				
+
 					#nav ul li a span
 					{
 						padding-right: 2.25em;
 					}
-					
+
 						#nav ul li a span:before
 						{
 							left: 100%;
@@ -95,7 +110,4 @@
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
-	{
-		margin-left: 20%;
-	}
+

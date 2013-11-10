@@ -1,6 +1,21 @@
 /*
-	Prologue 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	961-1620
 */
 
+    .box-info { padding-left: 50; padding-right: 25px;}
+    .box-info i {  padding-right:0; padding-left:0; font-size: 75pt;
+        margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
+
+       .box-info p { font-family: 'Arsenal'; font-size: 18pt !important;
+      font-size: 22pt; color: #938779; padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
+    position: relative; line-height: 1.5em;}
+
+    .first-sub h1 { font-size: 48px; width: 70%; margin: 5px auto;}
+    .first-sub h2 { font-size: 32px; width: 50%; margin: 20px auto; color: #5d534d;}
+
+    #nav ul li a span {  font-size: 15pt;}
+    #nav ul li a i { font-size: 18pt;}
+
+   .box-info .icn { font-size: 78pt; position: absolute; left: 30px; top: 25%; }
+    #main { margin-left: 25%; }
+    #header { width: 25%;  }
