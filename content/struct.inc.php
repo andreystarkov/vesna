@@ -24,15 +24,14 @@
                           <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
                         </div>
 
-                        <div class="box-info s3" style="margin-top: 3em">
+                        <div class="box-info s1" style="margin-top: 3em">
                            <i class="icn fa-truck fa"></i>
-                           <p>Жилой комплекс расположен в непосредственной близости от маршрутов обществен-
-                            ного транспорта, которые проходят по Беляевскому шоссе, что обеспечивает связь с
-                            посселком &laquo;Весенний&raquo; и городом. В дальнейшем возможна организация движения обществен-
-                            ного транспорта по центральной улице жилого комплекса.</p>
+                           <p>Жилой комплекс расположен в непосредственной близости от маршрутов общественного
+                            транспорта, которые проходят по Беляевскому шоссе, что обеспечивает связь с
+                            посселком &laquo;Весенний&raquo; и городом.</p>
                          </div>
 
-                        <div class="box-info s1" style="margin-top: 1em">
+                        <div class="box-info s3" style="margin-top: 1em">
                         <i class="icn fa-hospital fa"></i>
                             <p>Удачно выбранное градостроительное положение участка обеспечивает
                             близость к поселку &laquo;Весенний&raquo;, выход к крупным

@@ -1,5 +1,15 @@
   var map;
 
+function hexToRgb(hex) {
+    alert(hex);
+    var bigint = parseInt(hex, 16);
+    var r = (bigint >> 16) & 255;
+    var g = (bigint >> 8) & 255;
+    var b = bigint & 255;
+
+    return r + "," + g + "," + b;
+}
+
 jQuery(function(){
 
     var bx = $('#blur').parallax({
@@ -14,12 +24,17 @@ jQuery(function(){
      $('.sub h1').css({scale: "0.1", opacity: '0'});
      $('.waypoint').css({opacity: 0});
 
+    $('section').waypoint(function(direction) {
+
+    }, { offset: '5%', triggerOnce: true });
+
+
     $('.carousel').waypoint(function(direction) {
-      if(direction == "down") $(this).transition({y: '0', opacity:'1'}, 800);
+      $(this).transition({y: '0', opacity:'1'}, 800);
     }, { offset: '60%', triggerOnce: true });
 
    $('.btn-go').waypoint(function(direction) {
-      if(direction == "down") $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
+      $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
     }, { offset: '75%', triggerOnce: true });
 
    $('.sub h1').waypoint(function(direction) {

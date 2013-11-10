@@ -33,7 +33,7 @@
                     -->
                     <div style="background: url(images/pg/1.jpg); height: 320px" class="waypoint dummy-image"></div></a>
 
-                    <div class="box-info s3" style="margin-top: 3em">
+                    <div class="box-info" style="margin-top: 3em">
                     <i class="icn fa-camera-retro fa"></i>
                     <p>Благодаря талантливой планировке, «Весенний квартал» являет собой настоящий город вне города. Удобная транспортная развязка, наличие двух детских садов, игровые площадки, закрытые дворы, просторные парковки, огражденная территория — все это делает микрорайон безопасным, удобным и уютным местом для жизни.</p>
 

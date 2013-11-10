@@ -178,14 +178,14 @@
 	<script src="js/shadow.js"></script>
 	<script src="js/easing.js"></script>
     <script src="js/cookie.js"></script>
-    <script src="js/tooltipster.js"></script>
+
 	<script src="js/parallax.js"></script>
     <script src="js/waypoints.js"></script>
 
 	<script src="js/init.js"></script>
 
     <script src="js/engine.js"></script>
-    <script src="js/mail.js"></script>
+
 
 	<script src="js/classie.js"></script>
 	<script src="js/requestAnimationFrame.js"></script>
