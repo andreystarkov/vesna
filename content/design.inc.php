@@ -1,37 +1,52 @@
-                    <section id="design" class="two">
-                        <div class="container">
 
-                            <header class="sub hd2">
-                                <h1 class="yellow-gradient-1">Планировка и дизайн квартир</h1>
-                            </header>
+            <!-- Планировка и дизайн квартир -->
 
-                            <div class="box-info s2">
-                            <i class="icn fa-pencil-square-o fa"></i> <p>Создание интерьера своей мечты — задача не из легких.  Для того, чтобы помочь Вам
-                            представить будущую квартиру и сделать ее обустройство легким и приятным, наши
-                            дизайнеры разработали несколько интерьерных решений.</p>
-                            </div>
+            <section id="design" class="two">
+                <div class="container">
 
-                        <section class="tt-grid-wrapper">
-                            <ul class="tt-grid tt-effect-fall tt-effect-delay">
-                                <li><a data-toggle="modal" href="#int-1" class="btn btn btn-primary btn btn-lg">
-                                <div class="tt-img" style="background:url(images/int/1.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/2.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/3.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/4.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/5.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/6.jpg)"><span></span></div></a></li>
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/7.jpg)"><span></span></div></a></li><!--
-                                --><li><a href="#"><div class="tt-img" style="background:url(images/int/8.jpg)"><span></span></div></a></li>
-                            </ul>
-                            <nav>
-                                <a class="tt-current"></a><a></a><a></a><a></a>
-                            </nav>
+                    <header class="sub hd2">
+                        <h1>Планировка и дизайн квартир</h1>
+                    </header>
+<!--
+                    <div class="waypoint" style="height: 320px; margin-bottom: 35px; border-radius: 8px; overflow: hidden; width: 120%; margin-left: -40px; box-shadow: 0 2px 30px rgba(0,0,0,0.3)">
 
-                            <footer>
-                                <a href="#struct" class="btn-go scrolly btn btn-3 round"><i class="icn fa-angle-down fa i-1"></i></a>
-                            </footer>
 
-                        </section>
+                    <ul id="blur" class="scene">
+                        <li class="layer" data-depth="0.60"><div style="background: url(images/px/blur.jpg) center center; margin-left: -50px;width: 1600px; height: 441px"></div></li>
+                    </ul>
+                    </div>
 
-                        </div>
-                    </section>
+                                        <div style="background: url(images/pg/1.jpg); height: 320px" class="waypoint dummy-image"></div></a>
+
+    -->
+                    <div class="box-info s2">
+                    <i class="icn fa-pencil-square-o fa"></i> <p>Создание интерьера своей мечты — задача не из легких.  Для того, чтобы помочь Вам
+                    представить будущую квартиру и сделать ее обустройство легким и приятным, наши
+                    дизайнеры разработали несколько интерьерных решений.</p>
+                    </div>
+
+                <section class="tt-grid-wrapper">
+
+                    <ul class="tt-grid tt-effect-fall tt-effect-delay">
+                        <li><a data-toggle="modal" href="#int-1" class="btn btn btn-primary btn btn-lg">
+                        <div class="tt-img" style="background:url(images/int/1.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/2.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/3.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/4.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/5.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/6.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/7.jpg)"><span></span></div></a></li><!--
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/8.jpg)"><span></span></div></a></li>
+                    </ul>
+                    <nav>
+                        <a class="tt-current"></a><a></a><a></a><a></a>
+                    </nav>
+
+                    <footer>
+                        <a href="#struct" class="btn-go scrolly btn btn-3 round"><i class="icn fa-angle-down fa i-1"></i></a>
+                    </footer>
+
+                </section>
+
+                </div>
+            </section>

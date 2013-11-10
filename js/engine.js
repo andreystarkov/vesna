@@ -45,7 +45,7 @@ jQuery(function(){
 
    $('.box-info').waypoint(function(direction) {
       if(direction == "down") $(this).transition({y: '0', opacity:'1'}, 800);
-    }, { offset: '97%', triggerOnce: true });
+    }, { offset: '110%', triggerOnce: true });
 
    $('.waypoint').waypoint(function(direction) {
     $(this).transition({opacity: 1}, 500);
@@ -92,8 +92,8 @@ jQuery(function(){
     }
 
     if($(window).width() > 1600){
-         $('.tt-grid').css({'width': '110%', 'max-width': '110%'});
-         $('#nav ul li a span').css({'font-size': '19pt'});
+         $('.tt-grid').css({'width': '1400px'});
+         $('#nav ul li a span').css({'font-size': '20pt'});
     }
 
     if($(window).width() < 1200){

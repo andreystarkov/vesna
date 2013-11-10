@@ -6,13 +6,14 @@
     */
     @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic&subset=latin,cyrillic);
     @import "http://webfonts.ru/import/bebasneue.css";
+
  /*
     @import "http://webfonts.ru/import/arsenal.css"; font-family: 'Arsenal';
     @import "http://webfonts.ru/import/boblic.css";
     @import "http://webfonts.ru/import/ubuntu.css";
     @import "http://webfonts.ru/import/bravo.css";*/
     @import "http://webfonts.ru/import/fontin.css"; /* font-family: 'Fontin Sans'; */
-    @import "http://webfonts.ru/import/marmelad.css"; /* font-family: 'Marmelad'; */
+ /*    @import "http://webfonts.ru/import/marmelad.css"; font-family: 'Marmelad'; */
     @import "http://webfonts.ru/import/noto.css"; /* font-family: 'Noto Sans'; */
     @import "http://webfonts.ru/import/permian.css";  /* font-family: 'Permian'; */
 

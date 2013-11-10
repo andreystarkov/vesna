@@ -25,6 +25,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/tooltipster.css" /
 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 
 		<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -178,14 +179,14 @@
 	<script src="js/shadow.js"></script>
 	<script src="js/easing.js"></script>
     <script src="js/cookie.js"></script>
-
+    <script src="js/tooltipster.js"></script>
 	<script src="js/parallax.js"></script>
     <script src="js/waypoints.js"></script>
 
 	<script src="js/init.js"></script>
 
     <script src="js/engine.js"></script>
-
+    <script src="js/mail.js"></script>
 
 	<script src="js/classie.js"></script>
 	<script src="js/requestAnimationFrame.js"></script>
