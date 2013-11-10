@@ -7,7 +7,7 @@
                     <header class="sub hd2">
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
-                    <div style="height: 320px; margin-bottom: 35px; border-radius: 8px; overflow: hidden"class="dummy-image">
+                    <div class="waypoint" style="height: 320px; margin-bottom: 35px; border-radius: 8px; overflow: hidden"class="dummy-image">
                                  <ul id="blur" class="scene">
                                     <li class="layer" data-depth="0.60"><div style="background: url(images/px/blur.jpg) center center; margin-left: -50px;width: 1600px; height: 441px"></div></li>
                                 </ul>

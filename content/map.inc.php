@@ -8,7 +8,7 @@
                         <h1>Схема проезда</h1>
                     </header>
 
-                    <div class="dummy-image"><div id="mymap" style="width: 100%; height: 100%"></div></div>
+                    <div class="waypoint" class="dummy-image"><div id="mymap" style="width: 100%; height: 100%"></div></div>
 
                     <div class="box-info s3" style="margin-top: 3em">
                     <i class="icn fa-map-marker fa"></i>

@@ -10,7 +10,7 @@
 
                     <p></p>
 
-                    <form method="post" action="#" class="contact-form">
+                    <form method="post" action="#" class="contact-form waypoint">
                         <div class="row half">
                             <div class="6u"><input type="text" class="text" name="name" id="name" placeholder="Имя" /></div>
                             <div class="6u"><input type="text" class="text" name="email" id="email" placeholder="Обратная связь" /></div>

@@ -31,7 +31,7 @@
                       <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="icon-next"></span></a>
                     </div>
                     -->
-                    <div style="background: url(images/pg/1.jpg); height: 320px"class="dummy-image"></div></a>
+                    <div style="background: url(images/pg/1.jpg); height: 320px" class="waypoint dummy-image"></div></a>
 
                     <div class="box-info s3" style="margin-top: 3em">
                     <i class="icn fa-camera-retro fa"></i>

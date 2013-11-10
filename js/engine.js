@@ -1,33 +1,40 @@
   var map;
 
 jQuery(function(){
+
     var bx = $('#blur').parallax({
       calibrateX: true,
       calibrateY: true,
       limitX: 15,
       limitY: 15});
-    $('.carousel').css({y: '400', opacity:'0'});
-    $('.box-info').css({y: '-400', opacity:'0'});
+
+    $('.carousel').css({y: '-300px', opacity:'0'});
+    $('.box-info').css({y: '300px', opacity:'0'});
     $('.btn-go').css({x: '500px', opacity: '0'});
      $('.sub h1').css({scale: "0.1", opacity: '0'});
+     $('.waypoint').css({opacity: 0});
 
     $('.carousel').waypoint(function(direction) {
-      $(this).transition({y: '0', opacity:'1'}, 800);
-    }, { offset: '90%' });
+      if(direction == "down") $(this).transition({y: '0', opacity:'1'}, 800);
+    }, { offset: '60%', triggerOnce: true });
 
    $('.btn-go').waypoint(function(direction) {
-      $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
-    }, { offset: '95%' });
+      if(direction == "down") $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
+    }, { offset: '75%', triggerOnce: true });
 
    $('.sub h1').waypoint(function(direction) {
-      $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
-         $(this).transition({scale: '1'}, 300);
+      if($(this).css("opacity") == 0) $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
+          $(this).transition({scale: '1'}, 300);
       });
-    }, { offset: '55%' });
+    }, { offset: '55%', triggerOnce: true });
 
    $('.box-info').waypoint(function(direction) {
-      $(this).transition({y: '0', opacity:'1'}, 800);
-    }, { offset: '70%' });
+      if(direction == "down") $(this).transition({y: '0', opacity:'1'}, 800);
+    }, { offset: '97%', triggerOnce: true });
+
+   $('.waypoint').waypoint(function(direction) {
+    $(this).transition({opacity: 1}, 500);
+  }, { offset: '90%', triggerOnce: true});
 
     var px = $('#scene').parallax({
       calibrateX: false,
