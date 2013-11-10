@@ -20,7 +20,7 @@
                                 <textarea name="message" id="message" placeholder="Сообщение"></textarea>
                             </div>
                         </div>
-                        <div class="submit btn btn-3 button-send"><i class="icn fa-comment-o fa tt-send"></i> Отправить сообщение</div>
+                        <div class="submit btn btn-send"><i class="icn fa-comment-o fa tt-send"></i> Отправить сообщение</div>
                     </form>
 
                 </div>

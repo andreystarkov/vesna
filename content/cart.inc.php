@@ -1,7 +1,7 @@
 
         <!-- Условия покупки -->
 
-            <section id="cart" class="two">
+            <section id="cart" class="four">
                 <div class="container">
 
                     <header class="sub hd2">

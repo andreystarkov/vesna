@@ -93,7 +93,7 @@ jQuery(function(){
 
     if($(window).width() > 1600){
          $('.tt-grid').css({'width': '1400px'});
-         $('#nav ul li a span').css({'font-size': '20pt'});
+         $('#nav ul li a span').css({'font-size': '19pt'});
     }
 
     if($(window).width() < 1200){

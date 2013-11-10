@@ -154,8 +154,16 @@
     /* buttons */
 
     .btn-send:hover { background: #d77f47; }
-    .btn-send { width: 90%; margin: 0 auto; display: block; cursor: pointer; padding: 0.15em 0.5em 0.15em 0.5em; color: #fff; margin-top: 15px; border-bottom: 3px solid #ac6233; background: #d28c5f; font-family: 'PT Sans'; text-shadow: 0 1px 0 rgba(0,0,0,0.3); font-size: 18pt; border-radius: 5px; text-decoration: none; outline: 0; -moz-transition: background 0.8s ease; -webkit-transition: background 0.8s ease; -o-transition: background 0.8s ease; -ms-transition: background 0.8s ease; transition: background 0.8s ease; }
 
+    .btn-send { width: 320px; margin: 0 auto; display: block; cursor: pointer; padding: 0.5em 0.5em 0.5em 0.5em; color: #fff; margin-top: 0px;
+      font-family: 'PT Sans'; text-shadow: 0 1px 0 rgba(0,0,0,0.3); font-size: 17pt;
+      border-radius: 8px; text-decoration: none; outline: 0; border-bottom: 4px solid #9e3f2a; background: #ce5f4b;
+      -webkit-transition:all 0.5s ease-in-out; -webkit-perspective: 800px; -webkit-perspective-origin: 50% 100px;
+      }
+
+    .btn-send:hover { -webkit-transform:rotateX(30deg); background: #d96e5a; border-bottom: 5px solid #a44939; }
+
+    .btn-send i { color: #fff;}
     .form-feedback form textarea { border: 2px solid rgba( 207, 187, 175, 0.8 ); border-radius: 5px; background-color: rgb( 247, 244, 233 ); position: relative; margin: 0 auto; width: 90%; font-size: 14px; min-height: 6em !important; }
 
     .s1 { background-color: rgb( 246,243, 235);  border-bottom: 10px solid #adb959; border-top: 1px dotted #b9bca7; }

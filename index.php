@@ -159,7 +159,7 @@
 
 			<!-- Copyright -->
 				<div class="copyright">
-					<p>&copy; 2013 &mdash; Andrey Starkov.</p>
+					<p>&copy; 2013 &mdash;</p>
 					<ul class="menu">
 						<li></li>
 						<li></li>
