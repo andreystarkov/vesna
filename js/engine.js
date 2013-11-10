@@ -16,19 +16,18 @@ jQuery(function(){
     });
 
     if($(window).width() < 960){
-        px.disable;
-        $('.header-image').css({'display': 'none'});
+      //   px.disable;
+      //  $('.header-image').css({'display': 'none'});
         $('#nav ul li a i').css({'display': 'none'});
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '14px'});
         $('.box-info').css({'padding-left': '25px', 'font-size': '16px', 'font-family': 'PT Sans'});
           $('.logo-top').css({'position': 'relative', 'margin': '0px auto', 'width': '90%', 'right': '0', 'top': '1em'});
-           $('.logo-top h1').css({'font-size': '40px'});
+          $('.first-sub').css({'margin-top': '19em'});
+            $('#logo h1').css({'font-size': '25px'});
+            $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
-        $('.box-info i').css({'display': 'none'});
-        $('.box-info p').css({'font-size': '14px'});
-        $('header h1').css({'font-size': '36px'});
-        $('header h2').css({'font-size': '27px'});
+
     }
 
 

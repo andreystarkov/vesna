@@ -5,26 +5,28 @@
        im@andreystarkov.ru
     */
     @import "http://webfonts.ru/import/bebasneue.css";
-    @import "http://webfonts.ru/import/airport.css"; /* font-family: 'Arsenal'; */
+ /* font-family: 'Arsenal'; */
     @import "http://webfonts.ru/import/arsenal.css";
     @import "http://webfonts.ru/import/boblic.css";
     @import "http://webfonts.ru/import/ubuntu.css";
     @import "http://webfonts.ru/import/bravo.css";
 
-    #nav ul li a { font-family: 'Bravo'; font-size: 26pt; }
-    .box-info { font-family: 'Arsenal'; font-size: 22pt; }
-    .header-image {
-        position: relative; width: 1608px; height: 745px; display: block; margin-left:1px; margin-top: -70px;
-        margin-bottom: 3em;
-    }
+    #nav ul li a { font-family: 'Bebas Neue'; font-size: 23pt; }
 
-    .layer-house { opacity: 1; width: 100%; position: absolute; height: 745px; top: 0px; left: -5%;
-       z-index: 500; }
+    .box-info p { font-family: 'Arsenal'; font-size: 22pt;
+  font-size: 22pt; color: #938779; padding-left: 2em; text-indent: 1.2em; padding-top: 0.7em; padding-right: 1em;}
+
+    .box-info .icn { font-size: 78pt; position: absolute; left: 65px; top: 25%; }
+
+
+    #header { padding-top: 2em;}
+    .carousel-control i { font-size: 5em; margin-top: 100%; text-shadow: 0 3px 6px rgba(0,0,0,0.7);}
+    .carousel-control .left { margin-left: -40%;}
+     .carousel-control .right { margin-right: -40%;}
 
     @media only screen and (max-device-width: 960px) {
-
-    .layer-house { background: url(../images/px/house-1000.png) left top; }
-    .layer-bg { background: url(../images/px/bg-1000.jpg) left top; }
+      .layer-house { background: url(../images/px/house-960.png) left top; }
+     .layer-bg { background: url(../images/px/bg-960.jpg) left top; }
     }
 
     @media only screen and (max-device-width: 1280px) {
@@ -33,14 +35,36 @@
     }
 
     @media only screen and (min-device-width: 1600px) {
-     .layer-bg { background: url(../images/px/bg-1b.jpg) left top; }
-     .layer-house { background: url(../images/px/house-1b.png) left top;  }
+      .layer-house { background: url(../images/px/house-1b.png) left top;  }
+      .layer-bg { background: url(../images/px/bg-1b.jpg) left top;  }
     }
 
 
-
-    .layer-bg { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -5%;
+    .layer-house { z-index: 3; } .layer-bg { z-index: 1;}
+         .header-image {
+        position: relative; width: 1608px; height: 745px; display: block; margin-left:1px; margin-top: -70px;
+        margin-bottom: 3em;
       }
+    .page-slider { overflow: hidden; border-radius: 10px; max-width: 1260px; max-height: 466px; margin: 0 auto;}
+    .page-slider .carousel-inner { overflow: hidden; border-radius: 10px;  }
+    .yellow-gradient-1 {   border-radius: 8px; display: inline-block; padding: 0.1em 0.9em 0.1em 0.9em;
+                background: linear-gradient(to bottom,  rgba(249,230,79,1) 1%,rgba(240,198,0,1) 100%);
+                box-shadow: 0 1px 3px rgba(152,117,94,.63), inset 0 2px 3px rgba(252,243,201,.48), inset 0 0 1px rgba(255,251,234,.54);
+
+                color: #37322e !important;
+     }
+
+     .yellow-gradient-2 {
+
+            background: linear-gradient(to bottom,  rgba(249,230,79,1) 1%,rgba(240,198,0,1) 100%);
+            border-top: 1px dotted rgba(152,117,94,.33);
+            border-bottom: 2px solid rgba(152,117,94,.63);
+            box-shadow: 0 1px 3px rgba(152,117,94,.63), inset 0 1px 2px rgba(252,243,201,.58), inset 0 -1px 3px rgba(255,251,234,.54);
+
+     }
+
+    .layer-px { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -5%;  }
+
   /*
   .cloud-1 { z-index: 200; left: 40px; top: 40px; width: 541px; height: 427px; background: url(../images/px/c5.png) top center; position: absolute; }
   .cloud-2 { z-index: 200; width: 802px; height: 603px; background: url(../images/px/c2.png) top center; position: absolute; }
@@ -57,8 +81,6 @@
 
      .logo-top h1 { font-family: 'Hagin Caps Medium'; font-size: 3.4em; color: #493d35;
     border-radius: 8px; }
-
-    .no-auto p { font-family: 'PT Sans'; font-size: 20pt; color: #938779; padding-left: 6em; padding-right: 6em; }
 
     .form-feedback { width: 100%; height: 250px; margin-bottom: 1 0px; }
 
@@ -149,8 +171,6 @@
 
     .box-info .grn {
         color: #8ea106; text-shadow: 0px 3px 0px #798908; }
-
-    .box-info i { font-size: 78pt; position: absolute; left: 65px; top: 55px; }
 
     .hidden { opacity: 0; }
 
