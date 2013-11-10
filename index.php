@@ -180,6 +180,7 @@
     <script src="js/cookie.js"></script>
     <script src="js/tooltipster.js"></script>
 	<script src="js/parallax.js"></script>
+    <script src="js/waypoints.js"></script>
 
 	<script src="js/init.js"></script>
 

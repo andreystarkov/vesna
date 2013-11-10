@@ -8,7 +8,7 @@
                             <h1>Инфраструктура</h1>
                         </header>
 
-                        <div id="carousel-example-generic" class="carousel slide page-slider">
+                        <div id="carousel-example-generic" class="carousel vertical slide page-slider">
 
                           <div class="carousel-inner">
                             <div class="item active">

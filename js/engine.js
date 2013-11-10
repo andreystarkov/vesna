@@ -1,6 +1,33 @@
   var map;
 
 jQuery(function(){
+    var bx = $('#blur').parallax({
+      calibrateX: true,
+      calibrateY: true,
+      limitX: 15,
+      limitY: 15});
+    $('.carousel').css({y: '400', opacity:'0'});
+    $('.box-info').css({y: '-400', opacity:'0'});
+    $('.btn-go').css({x: '500px', opacity: '0'});
+     $('.sub h1').css({scale: "0.1", opacity: '0'});
+
+    $('.carousel').waypoint(function(direction) {
+      $(this).transition({y: '0', opacity:'1'}, 800);
+    }, { offset: '90%' });
+
+   $('.btn-go').waypoint(function(direction) {
+      $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
+    }, { offset: '95%' });
+
+   $('.sub h1').waypoint(function(direction) {
+      $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
+         $(this).transition({scale: '1'}, 300);
+      });
+    }, { offset: '55%' });
+
+   $('.box-info').waypoint(function(direction) {
+      $(this).transition({y: '0', opacity:'1'}, 800);
+    }, { offset: '70%' });
 
     var px = $('#scene').parallax({
       calibrateX: false,
@@ -30,11 +57,11 @@ jQuery(function(){
     }
 
     $('.box-info').hover(function(){
-        $(this).fadeTo(1, 500);
-        $('i', this).transition({scale: '1.1', rotate: '+=15deg', x: '5px', textShadow: '0 10px 1px rgba(0,0,0,0.15)'});
+
+        $('i', this).transition({scale: '1.1', rotate: '+=15deg', x: '5px', y: '-10px',textShadow: '0 14px 3px rgba(0,0,0,0.13)'});
     },function(){
-       $(this).fadeTo(0.9, 500);
-       $('i', this).transition({scale: '1', rotate: '-=15deg',x:'0', textShadow: '0 0 0 rgba(0,0,0,0)'});
+
+       $('i', this).transition({scale: '1', rotate: '-=15deg',x:'0', y: '0',textShadow: '0 0 0 rgba(0,0,0,0)'});
     })
 
     if( ($(window).width() > 480) &&($(window).width() < 960)){
@@ -44,7 +71,7 @@ jQuery(function(){
 
     if($(window).width() > 1600){
          $('.tt-grid').css({'width': '110%', 'max-width': '110%'});
-         $('#nav ul li a span').css({'font-size': '1em'});
+         $('#nav ul li a span').css({'font-size': '19pt'});
     }
 
     if($(window).width() < 1200){
@@ -86,7 +113,10 @@ jQuery(function(){
             $(this).append('<i class="fa-angle-double-down fa i-2"></i>');
           }
     });
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+      interval: false,
+      pause: true
+    });
     $('.round').hover(function(){
 
         $('.i-1', this).transition({top: '250px', opacity:0});

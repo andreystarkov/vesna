@@ -7,7 +7,11 @@
                     <header class="sub hd2">
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
-                    <div style="background: url(images/pg/1.jpg); height: 320px; margin-bottom: 35px"class="dummy-image"></div></a>
+                    <div style="height: 320px; margin-bottom: 35px; border-radius: 8px; overflow: hidden"class="dummy-image">
+                                 <ul id="blur" class="scene">
+                                    <li class="layer" data-depth="0.60"><div style="background: url(images/px/blur.jpg) center center; margin-left: -50px;width: 1600px; height: 441px"></div></li>
+                                </ul>
+                    </div></a>
                     <div class="box-info s2">
                     <i class="icn fa-pencil-square-o fa"></i> <p>Создание интерьера своей мечты — задача не из легких.  Для того, чтобы помочь Вам
                     представить будущую квартиру и сделать ее обустройство легким и приятным, наши
@@ -22,12 +26,12 @@
                         --><li><a href="#"><div class="tt-img" style="background:url(images/int/3.jpg)"><span></span></div></a></li><!--
                         --><li><a href="#"><div class="tt-img" style="background:url(images/int/4.jpg)"><span></span></div></a></li><!--
                         --><li><a href="#"><div class="tt-img" style="background:url(images/int/5.jpg)"><span></span></div></a></li><!--
-                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/6.jpg)"><span></span></div></a></li>
+                        --><li><a href="#"><div class="tt-img" style="background:url(images/int/6.jpg)"><span></span></div></a></li><!--
                         --><li><a href="#"><div class="tt-img" style="background:url(images/int/7.jpg)"><span></span></div></a></li><!--
                         --><li><a href="#"><div class="tt-img" style="background:url(images/int/8.jpg)"><span></span></div></a></li>
                     </ul>
                     <nav>
-                        <a class="tt-current"></a><a></a><a></a><a></a>
+                        <a class="tt-current"></a>
                     </nav>
 
                     <footer>
