@@ -4,7 +4,15 @@
        by Andrey Starkov
        im@andreystarkov.ru
     */
+    @import "http://webfonts.ru/import/bebasneue.css";
+    @import "http://webfonts.ru/import/airport.css"; /* font-family: 'Arsenal'; */
+    @import "http://webfonts.ru/import/arsenal.css";
+    @import "http://webfonts.ru/import/boblic.css";
+    @import "http://webfonts.ru/import/ubuntu.css";
+    @import "http://webfonts.ru/import/bravo.css";
 
+    #nav ul li a { font-family: 'Bravo'; font-size: 26pt; }
+    .box-info { font-family: 'Arsenal'; font-size: 22pt; }
     .header-image {
         position: relative; width: 1608px; height: 745px; display: block; margin-left:1px; margin-top: -70px;
         margin-bottom: 3em;
@@ -57,14 +65,14 @@
     .form-feedback h1 { color: #7e6758; font-size: 43px; font-family: 'Hagin Caps Medium'; margin: 0 auto; display: block; text-align: center;
     margin-bottom: 0.5em;}
 
-    .icn { width: 35px; margin-right: 5px; color: #92806f; font-size: 20pt; text-align: center; }
+    .icn { width: 35px; margin-right: 10px; color: #92806f; font-size: 20pt; text-align: center; }
 
     /* buttons */
 
     .btn-send:hover { background: #d77f47; }
     .btn-send { width: 90%; margin: 0 auto; display: block; cursor: pointer; padding: 0.15em 0.5em 0.15em 0.5em; color: #fff; margin-top: 15px; border-bottom: 3px solid #ac6233; background: #d28c5f; font-family: 'PT Sans'; text-shadow: 0 1px 0 rgba(0,0,0,0.3); font-size: 18pt; border-radius: 5px; text-decoration: none; outline: 0; -moz-transition: background 0.8s ease; -webkit-transition: background 0.8s ease; -o-transition: background 0.8s ease; -ms-transition: background 0.8s ease; transition: background 0.8s ease; }
     .form-feedback form textarea { border: 2px solid rgba( 207, 187, 175, 0.8 ); border-radius: 5px; background-color: rgb( 247, 244, 233 ); position: relative; margin: 0 auto; width: 90%; font-size: 14px; min-height: 6em !important; }
-    .box-info { position: relative; padding: 1em 2em 1em 7em; border-radius: 8px; font-family: 'Open Sans Condensed'; font-size: 24pt; width: 90%; margin: 0 auto; color: #5f5249; text-align: left; box-shadow: 0 5px 18px rgba(85,74,66,0.3); }
+    .box-info { position: relative; padding: 1em 2em 1em 7em; border-radius: 8px; width: 90%; margin: 0 auto; color: #5f5249; text-align: left; box-shadow: 0 5px 18px rgba(85,74,66,0.3); }
 
     .s1 { background-color: rgb( 246,243, 235);  border-bottom: 10px solid #adb959; border-top: 1px dotted #b9bca7; }
 
