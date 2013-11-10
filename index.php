@@ -23,11 +23,12 @@
 
 		<link rel="stylesheet" type="text/css" href="css/root.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.css" /
 
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+
 		<link href="fonts/hagincaps/font.css" rel="stylesheet" type="text/css" />
 
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
@@ -176,11 +177,14 @@
 	<script src="js/transit.js"></script>
 	<script src="js/shadow.js"></script>
 	<script src="js/easing.js"></script>
-
+    <script src="js/cookie.js"></script>
+    <script src="js/tooltipster.js"></script>
 	<script src="js/parallax.js"></script>
-	<script src="js/engine.js"></script>
+
 	<script src="js/init.js"></script>
 
+    <script src="js/engine.js"></script>
+    <script src="js/mail.js"></script>
 
 	<script src="js/classie.js"></script>
 	<script src="js/requestAnimationFrame.js"></script>

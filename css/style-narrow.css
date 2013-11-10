@@ -7,17 +7,21 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-    .box-info { padding-left: 50; padding-right: 25px;}
+    .box-info { }
     .box-info i {  padding-top: 0; padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 100%; margin-top:5px; margin-bottom: 15px; position: relative;  }
-
+	.box-info { padding: 1.7em 1.5em 1em 1em !important; }
        .box-info p { font-family: 'Arsenal'; font-size: 18pt !important;
-	  font-size: 20pt; color: #938779; padding-left: 2em; text-indent: 0em; padding-top: 0.7em; padding-right: 1em;
+	  font-size: 20pt; color: #938779; padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
 	position: relative;	}
 
-    #nav ul li a span {  font-size: 14pt;}
+    #nav ul li a span {  font-size: 13pt; }
+    .botton-send { min-width: 80% !important;}
+     .carousel-inner > .item > img {
+    max-width:220%;
 
-
+    min-height: 380px;
+    }
     .box-info .icn { padding-right: 15px; font-size: 68pt; position: relative; float: left; left: 0px; top: 25px; max-width: 150px; height: 130px; }
 
 	body,input,textarea,select
@@ -50,11 +54,11 @@
 /*********************************************************************************/
 	#main
 	{
-		margin-left: 25%;
+		margin-left: 30%;
 	}
 	#header
 	{
-		width: 25%;
+		width: 30%;
 	}
 
 	#logo

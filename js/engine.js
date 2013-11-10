@@ -22,7 +22,7 @@ jQuery(function(){
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '14px'});
 
-          $('.first-sub').css({'margin-top': '18em'});
+          $('.first-sub').css({'margin-top': '20em'});
 
             $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
@@ -39,7 +39,7 @@ jQuery(function(){
 
     if( ($(window).width() > 480) &&($(window).width() < 960)){
       $('.tt-gird').css({'max-width': '100%'});
-      $('#header').css({'width': '450px'});
+
     }
 
     if($(window).width() > 1600){

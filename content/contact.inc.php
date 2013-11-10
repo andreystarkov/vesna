@@ -12,15 +12,15 @@
 
                     <form method="post" action="#" class="contact-form">
                         <div class="row half">
-                            <div class="6u"><input type="text" class="text" name="name" placeholder="Имя" /></div>
-                            <div class="6u"><input type="text" class="text" name="email" placeholder="Обратная связь" /></div>
+                            <div class="6u"><input type="text" class="text" name="name" id="name" placeholder="Имя" /></div>
+                            <div class="6u"><input type="text" class="text" name="email" id="email" placeholder="Обратная связь" /></div>
                         </div>
                         <div class="row half">
                             <div class="12u">
-                                <textarea name="message" placeholder="Сообщение"></textarea>
+                                <textarea name="message" id="message" placeholder="Сообщение"></textarea>
                             </div>
                         </div>
-                        <a href="#" class="submit btn btn-3 button-send"><i class="icn fa-comment-o fa"></i> Отправить сообщение</a>
+                        <div class="submit btn btn-3 button-send"><i class="icn fa-comment-o fa tt-send"></i> Отправить сообщение</div>
                     </form>
 
                 </div>

@@ -22,7 +22,7 @@
      header h2 { font-family: 'Open Sans Condensed'; font-size:32pt; font-style:italic; font-weight: 300; color: #514944; text-align: center; margin-top: 0.1em; }
      .box-info p { font-family: 'Noto Sans'; font-size:18pt; line-height: 1.7em; color: #2f2c29;}
      .btn { font-family: 'PT Sans'; }
-
+    .button-send { max-width: 30%; cursor: pointer;}
     .box-info p { padding-left: 2em; text-indent: 1.2em;  padding-right: 0.8em;}
 
     .box-info .icn { font-size: 78pt; position: absolute; left: 65px; top: 25%; }
@@ -32,7 +32,7 @@
       color: #5f5249; text-align: left; box-shadow: 0 5px 18px rgba(85,74,66,0.3); }
 
     #header { padding-top: 2em;}
-    .button-send .icn { color: #fff;}
+    .button-send i { color: #fff !important;}
     .dummy-image {  width: 90%; height: 470px; border-radius: 8px; overflow: hidden; position: relative; margin: 0 auto; box-shadow: 0 0 80px rgba(0,0,0,0.2); }
 
     .carousel-control i { font-size: 200%; margin-top: 110%; text-shadow: 0 3px 6px rgba(0,0,0,0.7);}
@@ -92,9 +92,9 @@
       position: absolute; right: -20px; top: 5em; z-index: 215; padding: 0.3em 2em 0.3em 1.5em;
     }
 
-     #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #493d35; }
+     #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #2f2a27; }
 
-     .logo-top h1 { font-family: 'Hagin Caps Medium'; font-size: 3.4em; color: #493d35;
+     .logo-top h1 { font-family: 'Hagin Caps Medium'; font-size: 3.4em; color: #2f2a27;
     border-radius: 8px; }
 
     .form-feedback { width: 100%; height: 250px; margin-bottom: 1 0px; }
