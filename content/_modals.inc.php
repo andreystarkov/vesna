@@ -7,6 +7,52 @@
       .modal-footer .btn { position: absolute; right: 25px; bottom: 25px; }
       </style>
 
+      <div class="modal fade" id="plan-3" role="dialog">
+        <div class="modal-dialog" style="width:1100px">
+          <div class="modal-content" style="width: 1100px">
+
+            <div class="modal-body" style="width: 1100px; padding: 0">
+              <div style="position: absolute; width: 900px; height: 663px; top: 0; left: 0; background: url(images/plan/3/plan.jpg);"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
+
+            </div>
+       </div>
+      </div>
+    </div><!-- /.modal -->
+
+
+      <div class="modal fade" id="plan-2" role="dialog">
+        <div class="modal-dialog" style="width:1000px">
+          <div class="modal-content" style="width: 1000px">
+
+            <div class="modal-body" style="width: 1000px; padding: 0">
+              <div style="position: absolute; width: 776px; height: 609px; top: 0; left: 0; background: url(images/plan/2/plan.jpg);"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
+
+            </div>
+       </div>
+      </div>
+    </div><!-- /.modal -->
+
+      <div class="modal fade" id="plan-1" role="dialog">
+        <div class="modal-dialog" style="width:760px">
+          <div class="modal-content" style="width: 760px">
+
+            <div class="modal-body" style="width: 1000px; padding: 0">
+              <div style="position: absolute; width: 570px; height: 609px; top: 0; left: 0; background: url(images/plan/1/plan.jpg);"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
+
+            </div>
+       </div>
+      </div>
+    </div><!-- /.modal -->
+
       <div class="modal fade" id="int-1" role="dialog">
         <div class="modal-dialog" style="width:1000px">
           <div class="modal-content" style="width: 1000px">
@@ -28,7 +74,9 @@
                 </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn-go btn btn-3 btn btn-small" data-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
               <div class="capt">Здесь представлен примерный дизайн квартир.<br>Планировка соотстветсвует реальной. </div>
             </div>
-      </div><!-- /.modal -->
+      </div>
+            </div>
+    </div><!-- /.modal -->

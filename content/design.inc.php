@@ -1,10 +1,4 @@
 
-            <style>
-            .ct-2 .img-thumb { width: 180px; }
-            </style>
-
-
-
             <section id="design" class="two">
 
                 <div class="container">
@@ -20,18 +14,56 @@
                         дизайнеры разработали несколько интерьерных решений.</p>
                     </div>
 
+                    <style>
 
-                    <section class="tt-grid-wrapper" style="margin-top: 4em">
+                    </style>
+
+                    <div id="carousel-design" class="carousel slide page-slider" style="margin-top: 3em; margin-bottom: 2em; height: 315px; width: 90% ">
+
+                      <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img src="images/plan/1/banner.jpg" alt="...">
+                            <div class="caption-header">Квартира-студия.</div>
+                            <div class="caption-script">Cтены &mdash; это пережиток времени. Лучший вариант <br>для полета cмелой дизайнерской фантазии.</div>
+
+                            <a data-toggle="modal" href="#plan-1">
+                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                            </a>
+
+                            <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/plan/2/banner.jpg" alt="...">
+                            <div class="caption-header">Однокомнатная квартира.</div>
+                             <a data-toggle="modal" href="#plan-2">
+                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                             </a>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/plan/3/banner.jpg" alt="...">
+                            <div class="caption-header">Двухкомнатная квартира.</div>
+                            <a data-toggle="modal" href="#plan-3">
+                              <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                            </a>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <section class="tt-grid-wrapper" style="margin-top: 2em;">
 
                     <nav>
-                        <a class="tt-current">Квартира-студия</a>
-                        <a>Однокомнатная квартира</a>
-                        <a>Двухкомнатная квартира</a>
+                        <a class="btn-studio tt-current">Квартира-студия</a>
+                        <a class="btn-flat-1">Однокомнатная квартира</a>
+                        <a class="btn-flat-2">Двухкомнатная квартира</a>
                     </nav>
 
-                    <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 2em">
-                        <li><a data-toggle="modal" href="#int-1" class="btn btn btn-primary btn btn-lg">
-                        <div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></a></li>
+                    <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 1em">
+                        <li><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></li>
                         <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
                         <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
                         <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/4t.jpg)"><span></span></div></a></li>

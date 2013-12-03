@@ -12,6 +12,11 @@ function hexToRgb(hex) {
 
 jQuery(function(){
 
+    var slider = $('.carousel').carousel({
+      interval: false,
+      pause: true
+    });
+
     function waypointsInit(){
         $('.carousel').css({y: '-300px', opacity:'0'});
         $('.box-info').css({y: '300px', opacity:'0'});
@@ -125,6 +130,21 @@ jQuery(function(){
         $('span',this).animate({opacity:0});
       });
 
+      $('.btn-studio').click(function(){
+        $('#carousel-design').carousel(0);
+
+      });
+
+      $('.btn-flat-1').click(function(){
+       $('#carousel-design').carousel(1);
+
+      });
+
+      $('.btn-flat-2').click(function(){
+        $('#carousel-design').carousel(2);
+
+      });
+
 
       $('.tt-img span').html('<i class="fa fa-search"></i>');
       $('.tt-img').hover(function(){
@@ -147,10 +167,8 @@ jQuery(function(){
             $(this).append('<i class="fa-angle-double-down fa i-2"></i>');
           }
     });
-    $('.carousel').carousel({
-      interval: false,
-      pause: true
-    });
+
+
     $('.round').hover(function(){
 
         $('.i-1', this).transition({top: '250px', opacity:0});
