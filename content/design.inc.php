@@ -24,7 +24,9 @@
                     <section class="tt-grid-wrapper" style="margin-top: 4em">
 
                     <nav>
-                        <a class="tt-current">Квартира-студия</a><a>Однокомнатная квартира</a><a>Двухкомнатная квартира</a>
+                        <a class="tt-current">Квартира-студия</a>
+                        <a>Однокомнатная квартира</a>
+                        <a>Двухкомнатная квартира</a>
                     </nav>
 
                     <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 2em">
