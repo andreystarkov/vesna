@@ -31,7 +31,9 @@
                                 <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
                             </a>
 
-                            <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
+                            <a data-toggle="modal" href="#int-1">
+                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
+                            </a>
                         </div>
 
                         <div class="item">
@@ -63,10 +65,10 @@
                     </nav>
 
                     <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 1em">
-                        <li><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></li>
-                        <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
-                        <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
-                        <li><a href="#"><div class="tt-img" style="background:url(images/plan/1/4t.jpg)"><span></span></div></a></li>
+                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></a></li>
+                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
+                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
+                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/4t.jpg)"><span></span></div></a></li>
 
                     </ul>
 

@@ -54,18 +54,19 @@
     </div><!-- /.modal -->
 
       <div class="modal fade" id="int-1" role="dialog">
-        <div class="modal-dialog" style="width:1000px">
-          <div class="modal-content" style="width: 1000px">
+        <div class="modal-dialog" style="width:900px">
+          <div class="modal-content" style="width: 900px">
 
-            <div class="modal-body" style="width: 1000px; padding: 0">
-                <div id="carousel-example-generic" class="carousel slide" style="height: 500px">
+            <div class="modal-body" style="width: 900px; padding: 0">
+                <div id="carousel-example-generic" class="carousel slide" style="height: 450px">
 
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner" style="height: 500px">
-                    <div class="item active"><img src="images/plan/plan-1/1.jpg" alt="..."></div>
-                    <div class="item"><img src="images/plan/plan-1/2.jpg" alt="..."></div>
-                    <div class="item"><img src="images/plan/plan-1/3.jpg" alt="..."></div>
-                    <div class="item"><img src="images/plan/plan-1/4.jpg" alt="..."></div>
+                  <div class="carousel-inner" style="height: 450px">
+                    <div class="item active"><img src="images/plan/1/900/1.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/1/900/2.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/1/900/3.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/1/900/4.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/1/900/5.jpg" alt="..."></div>
                   </div>
 
                   <!-- Controls -->

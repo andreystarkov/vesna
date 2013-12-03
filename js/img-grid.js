@@ -3,20 +3,20 @@
 	'use strict';
 
 	var allImages = {
-		page1 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/1/1t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/2t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/3t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/4t.jpg)"><span></span></div></a>'],
+		page1 : ['<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/1/1t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/1/2t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/1/3t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/1/4t.jpg)"><span></span></div></a>'],
 
-		page2 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/2/1t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/2t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/3t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/4t.jpg)"><span></span></div></a>'],
+		page2 : ['<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/2/1t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/2/2t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/2/3t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/2/4t.jpg)"><span></span></div></a>'],
 
-		page3 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/3/1t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/2t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/3t.jpg)"><span></span></div></a>',
-		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/4t.jpg)"><span></span></div></a>']
+		page3 : ['<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/3/1t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/3/2t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/3/3t.jpg)"><span></span></div></a>',
+		'<a data-toggle="modal" href="#int-1"><div class="tt-img" style="background: url(images/plan/3/4t.jpg)"><span></span></div></a>']
 	};
 
 	function mobilecheck() {
