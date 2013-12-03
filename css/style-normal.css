@@ -1,13 +1,24 @@
 /*
 	961-1620
 */
-
+    body { overflow-x: hidden;}
+          .layer-house { background: url(../images/px/house-1300.png) center top no-repeat;  }
+    .layer-bg { background: url(../images/px/bg-1300.jpg) center top no-repeat;  }
+  .layer-px { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -150px;  }
     .box-info { padding-left: 50; padding-right: 25px;}
     .box-info i {  padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
+    .carousel-inner { height: 420px; }
+    .carousel-inner > .item > img {
 
-       .box-info p { font-family: 'Arsenal'; font-size: 18pt !important;
-      font-size: 22pt; color: #938779; padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
+    width:120%;
+    height: 120%;
+
+    min-height: 420px;
+    }
+
+       .box-info p { font-size: 16pt !important;
+      font-size: 22pt;  padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
     position: relative; line-height: 1.5em;}
 
     .first-sub h1 { font-size: 48px; width: 70%; margin: 5px auto;}

@@ -12,44 +12,41 @@ function hexToRgb(hex) {
 
 jQuery(function(){
 
-    var bx = $('#blur').parallax({
-      calibrateX: true,
-      calibrateY: true,
-      limitX: 15,
-      limitY: 15});
+    function waypointsInit(){
+        $('.carousel').css({y: '-300px', opacity:'0'});
+        $('.box-info').css({y: '300px', opacity:'0'});
+        $('.btn-go').css({x: '500px', opacity: '0'});
+        $('.sub h1').css({scale: "0.1", opacity: '0'});
+        $('.waypoint').css({opacity: 0});
 
-    $('.carousel').css({y: '-300px', opacity:'0'});
-    $('.box-info').css({y: '300px', opacity:'0'});
-    $('.btn-go').css({x: '500px', opacity: '0'});
-     $('.sub h1').css({scale: "0.1", opacity: '0'});
-     $('.waypoint').css({opacity: 0});
+        $('section').waypoint(function(direction) {
 
-    $('section').waypoint(function(direction) {
-
-    }, { offset: '5%', triggerOnce: true });
+        }, { offset: '5%', triggerOnce: true });
 
 
-    $('.carousel').waypoint(function(direction) {
-      $(this).transition({y: '0', opacity:'1'}, 800);
-    }, { offset: '60%', triggerOnce: true });
+        $('.carousel').waypoint(function(direction) {
+            $(this).transition({y: '0', opacity:'1'}, 800);
+        }, { offset: '60%', triggerOnce: true });
 
-   $('.btn-go').waypoint(function(direction) {
-      $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
-    }, { offset: '75%', triggerOnce: true });
+        $('.btn-go').waypoint(function(direction) {
+            $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
+        }, { offset: '75%', triggerOnce: true });
 
-   $('.sub h1').waypoint(function(direction) {
-      if($(this).css("opacity") == 0) $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
-          $(this).transition({scale: '1'}, 300);
-      });
-    }, { offset: '55%', triggerOnce: true });
+        $('.sub h1').waypoint(function(direction) {
+        $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
+        $(this).transition({scale: '1'}, 300);
+        });
+        }, { offset: '55%', triggerOnce: true });
 
-   $('.box-info').waypoint(function(direction) {
-      if(direction == "down") $(this).transition({y: '0', opacity:'1'}, 800);
-    }, { offset: '110%', triggerOnce: true });
+        $('.box-info').waypoint(function(direction) {
+        $(this).transition({y: '0', opacity:'1'}, 800);
+        }, { offset: '110%', triggerOnce: true });
 
-   $('.waypoint').waypoint(function(direction) {
-    $(this).transition({opacity: 1}, 500);
-  }, { offset: '90%', triggerOnce: true});
+        $('.waypoint').waypoint(function(direction) {
+        $(this).transition({opacity: 1}, 500);
+        }, { offset: '90%', triggerOnce: true});
+
+    }
 
     var px = $('#scene').parallax({
       calibrateX: false,
@@ -71,24 +68,20 @@ jQuery(function(){
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '16px'});
 
-          $('.first-sub').css({'margin-top': '20em'});
+          $('.first-sub').css({'margin-top': '18em'});
 
             $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
 
     }
 
-    $('.box-info').hover(function(){
-
-        $('i', this).transition({scale: '1.1', rotate: '+=15deg', x: '5px', y: '-10px',textShadow: '0 14px 3px rgba(0,0,0,0.13)'});
-    },function(){
-
-       $('i', this).transition({scale: '1', rotate: '-=15deg',x:'0', y: '0',textShadow: '0 0 0 rgba(0,0,0,0)'});
-    })
 
     if( ($(window).width() > 480) &&($(window).width() < 960)){
       $('.tt-gird').css({'max-width': '100%'});
 
+    }
+    if($(window).width() > 1200){
+        waypointsInit();
     }
 
     if($(window).width() > 1600){
@@ -104,6 +97,14 @@ jQuery(function(){
 
 
 /*
+    $('.box-info').hover(function(){
+
+        $('i', this).transition({scale: '1.1', rotate: '+=15deg', x: '5px', y: '-10px',textShadow: '0 14px 3px rgba(0,0,0,0.13)'});
+    },function(){
+
+       $('i', this).transition({scale: '1', rotate: '-=15deg',x:'0', y: '0',textShadow: '0 0 0 rgba(0,0,0,0)'});
+    })
+
     $('#nav ul li a').hover(function(){
         $(this).transition({boxShadow: 'inset 0 0 15px rgba(86,73,65,0.1)', backgroundColor: 'rgba(244,240,229,0.9)', borderBottomColor: 'rgba(212,168,140,0.9)'});
         $('i', this).transition({'color': '#e77327', rotate: '+=360deg'});
@@ -114,13 +115,24 @@ jQuery(function(){
 
 */
 
-        $('.tt-img span').html('<i class="fa fa-search"></i>');
-      $('.tt-img').hover(function(){
+      $('.img-thumb span').html('<i class="fa fa-search"></i>');
 
-        $('span', this).animate({top: '0px'});
+      $('.img-thumb').hover(function(){
+
+        $('span', this).animate({opacity:1});
 
       }, function(){
-        $('span',this).animate({top: '-250px'});
+        $('span',this).animate({opacity:0});
+      });
+
+
+      $('.tt-img span').html('<i class="fa fa-search"></i>');
+      $('.tt-img').hover(function(){
+
+        $('span', this).animate({opacity:1});
+
+      }, function(){
+        $('span',this).animate({opacity:0});
       });
 
 

@@ -4,7 +4,7 @@
        /*  #carousel-example-generic { width: 90%; margin: 0 auto; height: 426px;  box-shadow: 0 5 40px rgba(81,75,65,0.3);  }*/
         .carousel-caption h2 {
 
-            font-family: 'Open Sans Condensed'; color: #222; background: #; }
+            font-family: 'Open Sans Condensed'; color: #222; }
         </style>
 
             <section id="photo" class="two">

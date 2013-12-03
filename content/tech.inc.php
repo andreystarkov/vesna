@@ -7,7 +7,7 @@
                     <header class="sub hd2">
                         <h1>Технологии строительства</h1>
                     </header>
-                        <div id="carousel-tech" class="carousel slide page-slider">
+                        <div id="carousel-tech" class="carousel slide page-slider" style="margin-bottom: 2em">
 
                           <div class="carousel-inner">
                             <div class="item active">
@@ -23,10 +23,18 @@
                           <a class="right carousel-control" href="#carousel-tech" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
                         </div>
 
-                    <div class="box-info s1" style="margin-top: 3em">
-                    <i class="icn fa-cogs fa"></i>
-                    <p>Мы строим ногоквартирные трехэтажные дома из газобетона. Газобетон активно используется в строительстве уже более 80 лет. За это время он зарекомендовал себя как надежный и долговечный строительный материал, обладающий исключительными характеристиками. Стены из газобетона устойчивы к любым атмосферным воздействиям: дождю, снегу, сильным порывам ветра.</p>
+                    <div class="box-info s-1">
+                        <i class="icn fa-gavel fa"></i>
+                         <p>Мы строим ногоквартирные трехэтажные дома из керамзитоблока и кирпича. Это надежный, максимально экологичный и долговечный строительный материал,
+                    обладающий исключительными характеристиками.</p>
                     </div>
+
+                    <div class="box-info s-3">
+                        <i class="icn fa-cloud fa"></i>
+                       <p>Стены из наших материалов устойчивы к любым атмосферным воздействиям. Стены из керамзитоблока обеспечивают прекрасную шумоизоляцию, пожаробезопасность, и
+                         оптимальный микроклимат.</p>
+                    </div>
+
 
                     <footer>
                         <a href="#time" class="btn-go scrolly btn btn-1 round"><i class="icn fa-angle-down fa i-1"></i></a>

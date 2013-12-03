@@ -3,10 +3,20 @@
 	'use strict';
 
 	var allImages = {
-		page1 : ['<a href="#"><div class="tt-img" style="background: url(img/1.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/2.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/3.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/4.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/5.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/6.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/7.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/8.jpg)"><span></span></div></a>'],
-		page2 : ['<a href="#"><div class="tt-img" style="background: url(img/7.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/8.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/9.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/10.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/11.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/12.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/7.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/8.jpg)"><span></span></div></a>'],
-		page3 : ['<a href="#"><div class="tt-img" style="background: url(img/17.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/18.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/19.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/20.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/21.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/22.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/7.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/8.jpg)"><span></span></div></a>'],
-		page4 : ['<a href="#"><div class="tt-img" style="background: url(img/13.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/14.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/15.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/16.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/6.jpg)"><span></span></div></a>','<a href="#"><div class="tt-img" style="background: url(img/6.jpg)"><span></span></div></a>']
+		page1 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/1/1t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/2t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/3t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/1/4t.jpg)"><span></span></div></a>'],
+
+		page2 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/2/1t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/2t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/3t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/2/4t.jpg)"><span></span></div></a>'],
+
+		page3 : ['<a href="#"><div class="tt-img" style="background: url(images/plan/3/1t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/2t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/3t.jpg)"><span></span></div></a>',
+		'<a href="#"><div class="tt-img" style="background: url(images/plan/3/4t.jpg)"><span></span></div></a>']
 	};
 
 	function mobilecheck() {
@@ -29,20 +39,20 @@
 		support = Modernizr.cssanimations;
 
 	function onAnimationEnd( elems, len, callback ) {
-					$('.tt-img span').html('<i class="fa fa-eye"></i>');
+      $('.tt-img').hover(function(){
 
-			$('.tt-img').hover(function(){
+					        $('span', this).animate({opacity:1});
 
-				$('span', this).animate({top: '0px'});
-
-			}, function(){
-				$('span',this).animate({top: '-250px'});
-			})
+					      }, function(){
+					        $('span',this).animate({opacity:0});
+					      });
 		var finished = 0,
 			onEndFn = function() {
 				this.removeEventListener( animEndEventName, onEndFn );
 				++finished;
-				$('.tt-img span').html('<i class="fa fa-eye"></i>');
+						$('.tt-img span').html('<i class="fa fa-search"></i>');
+
+
 				if( finished === len ) {
 					callback.call();
 

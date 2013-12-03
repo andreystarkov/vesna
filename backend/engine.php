@@ -3,6 +3,7 @@
 // Here i'll write some awesome back end stuff. Later.
 
 function includeContent(){
+    include "content/intro.inc.php";
     include "content/design.inc.php";
     include "content/struct.inc.php";
     include "content/tech.inc.php";
