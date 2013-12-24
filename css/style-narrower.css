@@ -32,8 +32,8 @@
 /*********************************************************************************/
 
 
-    .layer-house { background: url(../images/px/house-1000.png) left top; width: 1000px; height: 500px;}
-    .layer-bg { background: url(../images/px/bg-1000.jpg) left top; width: 1000px; height: 500px; }
+    .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
+     .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
 
     .header-image { position: absolute; top: 0; left: 0; width: 1000px; height: 500px;}
    .carousel-control i { margin-top: 170px;}
@@ -55,7 +55,7 @@
 	.box-info { padding-left: 130px; padding-right: 25px;}
     	.box-info { margin-top: 2em; position: relative; }
 
-    .box-info i { position: absolute !important; right: 0; opacity: 1; left: 30px; top: 37%; padding-right:0; padding-left:0;
+    .box-info .icn { position: absolute !important; right: 0; opacity: 1; left: 30px; top: 37%; padding-right:0; padding-left:0;
     	font-size: 50pt;  }
 
     .box-info p { position: relative; text-indent: 25px; padding: 0; font-size: 18px; line-height: 1.5em; margin-bottom: 15px; z-index: 15;

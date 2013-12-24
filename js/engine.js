@@ -17,6 +17,8 @@ jQuery(function(){
       pause: true
     });
 
+    $('.house-standalone').transition({right: '100%', opacity: 0}, 50);
+
     function waypointsInit(){
         $('.carousel').css({y: '-300px', opacity:'0'});
         $('.box-info').css({y: '300px', opacity:'0'});
@@ -28,6 +30,10 @@ jQuery(function(){
 
         }, { offset: '5%', triggerOnce: true });
 
+ /*       $('.house-standalone').waypoint(function(direction) {
+            $(this).transition({righth: '0', rotate: '+360deg', opacity:'1'}, 1200);
+        }, { offset: '50%', triggerOnce: true });
+*/
 
         $('.carousel').waypoint(function(direction) {
             $(this).transition({y: '0', opacity:'1'}, 800);
@@ -48,7 +54,8 @@ jQuery(function(){
         }, { offset: '110%', triggerOnce: true });
 
         $('.waypoint').waypoint(function(direction) {
-        $(this).transition({opacity: 1}, 500);
+        $(this).transition({opacity: 1, right: 0}, 1000, function(){});
+
         }, { offset: '90%', triggerOnce: true});
 
     }
@@ -73,9 +80,8 @@ jQuery(function(){
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '16px'});
 
-          $('.first-sub').css({'margin-top': '18em'});
+          $('.first-sub').css({'margin-top': '21em'});
 
-            $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
 
     }

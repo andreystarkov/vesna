@@ -6,6 +6,11 @@
                     <header class="sub hd2">
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
+                    <style>
+                      .house-standalone { width: 90%; display: blockhy; position: relative; margin: 0 auto; opacity: 0;}
+                    </style>
+
+                    <div class="house-standalone waypoint"><img width="100%" src="images/house-alone.png"></div>
 
                     <div class="box-info s-4">
                         <i class="icn fa-pencil-square-o fa"></i>
@@ -25,10 +30,13 @@
                         <div class="item active">
                             <img src="images/plan/1/banner.jpg" alt="...">
                             <div class="caption-header">Квартира-студия.</div>
-                            <div class="caption-script">Cтены &mdash; это пережиток времени. Лучший вариант <br>для полета cмелой дизайнерской фантазии.</div>
+
+                            <a data-toggle="modal" href="#scheme-1">
+                                <div class="btn-plan scheme nice-hover"><i class="fa fa-eye"></i> Схема</div>
+                            </a>
 
                             <a data-toggle="modal" href="#plan-1">
-                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
                             </a>
 
                             <a data-toggle="modal" href="#int-1">
@@ -40,7 +48,10 @@
                             <img src="images/plan/2/banner.jpg" alt="...">
                             <div class="caption-header">Однокомнатная квартира.</div>
                              <a data-toggle="modal" href="#plan-2">
-                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
+                             </a>
+                             <a data-toggle="modal" href="#int-1">
+                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
                              </a>
                         </div>
 
@@ -48,8 +59,11 @@
                             <img src="images/plan/3/banner.jpg" alt="...">
                             <div class="caption-header">Двухкомнатная квартира.</div>
                             <a data-toggle="modal" href="#plan-3">
-                              <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Посмотреть планировку</div>
+                              <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
                             </a>
+                             <a data-toggle="modal" href="#int-1">
+                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
+                             </a>
                         </div>
 
                       </div>

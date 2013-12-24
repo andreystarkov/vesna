@@ -12,7 +12,7 @@ host = andreystarkov.ru
 user = deo
 
 # Directory at the remote host to replicate files to.
-remote = /home/deo/data/www/andreystarkov.ru/_/vesna-release
+remote = /home/deo/data/www/vesna56.ru
 
 # Pathname wildcards to be excluded from the replication.
 # Use "*" for any filename character and "**" for any character,

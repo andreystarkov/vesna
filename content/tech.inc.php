@@ -14,7 +14,7 @@
                                 <img src="images/tech/b1.jpg" alt="...">
                                 <div class="carousel-caption"></div>
                             </div>
-                            <div class="item"><img src="images/tech/b2.jpg" alt="..."></div>
+                     <!--       <div class="item"><img src="images/tech/b2.jpg" alt="..."></div> -->
                             <div class="item"><img src="images/tech/b3.jpg" alt="..."></div>
                             <div class="item"><img src="images/tech/b4.jpg" alt="..."></div>
                           </div>

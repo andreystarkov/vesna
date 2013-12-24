@@ -40,7 +40,7 @@
 		<script src="js/skel-panels.js"></script>
 
         <script type="text/javascript" charset="utf-8"
-        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=8sJwVSl9oGgEvht_NHsdsVhHtxO1yyhq&id=mymap"></script>
+        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=a0dRtPLN6E2g_uhrUxXAPZH6C4PNOuYs&id=mymap"></script>
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />

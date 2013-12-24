@@ -8,7 +8,7 @@
 /* Basic                                                                         */
 /*********************************************************************************/
     .box-info { padding-left: 50; padding-right: 25px;}
-    .box-info i {  padding-right:0; padding-left:0; font-size: 75pt;
+    .box-info .icn {  padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
 
 

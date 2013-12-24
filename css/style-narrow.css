@@ -1,7 +1,7 @@
 
 
     .box-info { }
-	    .box-info i {  padding-top: 0; padding-right:0; padding-left:0; font-size: 75pt;
+	    .box-info .icn {  padding-top: 0; padding-right:0; padding-left:0; font-size: 75pt;
 	        margin: 0px auto; text-align: center; width: 100%; margin-top:5px; margin-bottom: 15px; position: relative;  }
 		.box-info { padding: 1.7em 1.5em 1em 1em !important; }
 

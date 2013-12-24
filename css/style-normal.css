@@ -2,11 +2,11 @@
 	961-1620
 */
     body { overflow-x: hidden;}
-          .layer-house { background: url(../images/px/house-1300.png) center top no-repeat;  }
-    .layer-bg { background: url(../images/px/bg-1300.jpg) center top no-repeat;  }
+      .layer-house { background: url(../images/px/main-house-1600.png) center bottom; }
+      .layer-bg { background: url(../images/px/main-bg-1600.jpg)  center bottom;  }
   .layer-px { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -150px;  }
     .box-info { padding-left: 50; padding-right: 25px;}
-    .box-info i {  padding-right:0; padding-left:0; font-size: 75pt;
+    .box-info .icn {  padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
     .carousel-inner { height: 420px; }
     .carousel-inner > .item > img {

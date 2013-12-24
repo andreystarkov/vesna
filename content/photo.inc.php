@@ -31,11 +31,10 @@
                       <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="icon-next"></span></a>
                     </div>
                     -->
-                    <div style="background: url(images/pg/1.jpg); height: 320px" class="waypoint dummy-image"></div></a>
 
                     <div class="box-info" style="margin-top: 3em">
                     <i class="icn fa-camera-retro fa"></i>
-                    <p>Благодаря талантливой планировке, «Весенний квартал» являет собой настоящий город вне города. Удобная транспортная развязка, наличие двух детских садов, игровые площадки, закрытые дворы, просторные парковки, огражденная территория — все это делает микрорайон безопасным, удобным и уютным местом для жизни.</p>
+                    <p>Здесь будет размещатся фотоотчет по прохождении каждого из этапов строительства. Подробнее о сроках строительства можно узнать в <a href="#time">соответстсвующем разделе</a>.</p>
 
                     </div>
 
