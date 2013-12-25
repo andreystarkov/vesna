@@ -3,19 +3,29 @@
     .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
      .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
     .header-image { position: absolute; top: 0; left: -60px; width: 1000px; height: 500px;}
-    .page-slider { height: 350px;}
 
-    .carousel-inner > .item > img {
-    max-width:350%;
-    width:200%;
-    margin-left: -15% !important;
+    header h1 { width: 90%; font-size: 22pt !important;}
+    #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
+    width:120%;
+    height: 120%;
+
     min-height: 420px;
     }
-    /*
+    header h1, .hd2 h1  { font-size: 30pt; margin-right: 0; margin-left: 0;}
+   .news-box { width: 100%; margin: 0 auto;}
+     .carousel > .item > img { max-width:220%; min-height: 450px; }
+     .tt-grid-wrapper nav a { font-size: 14pt; margin: 5px 5px; width: 100% !important; height: 53px !important; }
+     #carousel-design .btn-inner i { display: none; }
+     #carousel-design .btn-inner { font-size: 12pt;}
+
+     .box-transparent p { font-size: 16pt !important;}
+     .tt-grid { margin-top: 1em !important;}
     .modal { width: 400px; }
     .modal-content { width: 400px} #int-1 .modal-dialog { width: 400px} #int-1 .modal-content { width: 400px}
-    .carousel { width: 400px; height: 300px; } #int-1 .modal-body { width: 400px }
-     */
+    #int-1 .modal-body { width: 400px }
+
     .btn-plan { max-height: 50px; font-size: 15px; }
     .caption-header { top: 15px; left: 15px; height: 90px; max-width: 235px; font-size:30px;}
     .first-sub h1 { font-size: 30px; width: 90%; margin: 5px auto;}

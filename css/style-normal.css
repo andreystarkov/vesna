@@ -8,18 +8,29 @@
     .box-info { padding-left: 50; padding-right: 25px;}
     .box-info .icn {  padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
-    .carousel-inner { height: 420px; }
-    .carousel-inner > .item > img {
 
+    #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
     width:120%;
     height: 120%;
 
     min-height: 420px;
     }
 
-       .box-info p {
+           #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
+    width:120%;
+    height: 120%;
+
+    min-height: 420px;
+    }
+    .tt-grid-wrapper { height: 370px; overflow: hidden;}
+    .tt-grid-wrapper nav a { font-size: 16pt; margin: 0 5px;}
+    .box-info p {
       padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
-    position: relative; line-height: 1.5em;}
+    position: relative; line-height: 1.5em; font-size: 14pt;}
 
     .first-sub h1 { font-size: 48px; width: 90%; margin: 5px auto;}
     .first-sub h2 { font-size: 32px; width: 50%; margin: 20px auto; color: #5d534d;}
@@ -27,6 +38,6 @@
     #nav ul li a span {  font-size: 15pt;}
     #nav ul li a i { font-size: 18pt;}
 
-   .box-info .icn { font-size: 78pt; position: absolute; left: 30px; top: 25%; }
+   .box-info .icn { font-size: 68pt; position: absolute; left: 28px; top: 24%; }
     #main { margin-left: 25%; }
     #header { width: 25%;  }

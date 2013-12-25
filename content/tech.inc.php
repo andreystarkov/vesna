@@ -41,12 +41,7 @@
                     .grid-box .thumb { width: 100%; height: 200px; box-shadow: 0 3px 6px rgba(0,0,0,0.4); border-radius: 8px;}
                     </style>
 
-                    <div class="row grid-box">
-                     <div class="4u"><div class="thumb" style="background:url(images/plan/1/1.jpg) center no-repeat"><img src=""></div></div>
-                      <div class="4u"><div class="thumb" style="background:url(images/plan/1/2.jpg) center no-repeat"></div></div>
-                      <div class="4u"><div class="thumb" style="background:url(images/plan/1/3.jpg) center no-repeat"></div></div>
 
-                    </div>
 
                     <footer>
                         <a href="#time" class="btn-go scrolly btn btn-1 round"><i class="icn fa-angle-down fa i-1"></i></a>

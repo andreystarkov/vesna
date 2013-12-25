@@ -2,6 +2,8 @@
         <!-- Условия покупки -->
             <style>
             .link-1 { color: #d8501a;}
+            .box-cart { padding-left: 40px;}
+            .box-cart p { margin-left: 0;}
             </style>
             <section id="cart" class="four">
                 <div class="container">
@@ -10,9 +12,9 @@
                         <h1>Условия покупки </h1>
                     </header>
 
-                    <div class="box-info s2" style="margin-top: 3em">
-                    <i class="icn fa-shopping-cart fa"></i>
-                    <p>Отдел продаж представляет Инвестиционно-риэлторская компания «Милана». Мы предлагаем различные варианты приобретения квартир в «Весеннем квартале» и
+                    <div class="box-info s2 box-cart" style="margin-top: 3em">
+
+                    <p style="padding-left:0">Отдел продаж представляет Инвестиционно-риэлторская компания «Милана». Мы предлагаем различные варианты приобретения квартир в «Весеннем квартале» и
                     всегда рассматриваем индивидуальные условия для наших клиентов:</p>
                     <p style="text-indent: 0">
                     <i class="fa pnt fa-money"></i> наличный расчет;<br>

@@ -24,8 +24,6 @@
                 и живописной природы, которую вы так любите.
             </div>
 
-
-
              <div class="box-info s1">
                 <i class="icn fa-leaf fa grn"></i><p>
                 Расположение вблизи леса, в далеке от промышленных зон и шума крупных автомагистралей, создаст благоприятную экологическую атмосферу.
@@ -51,6 +49,7 @@
         <div class="container no-auto">
 
             <header> <h1> Новости проекта</h1></header>
+
 <!--
             <div class="box-info s2">
                 <i class="icn fa fa-lightbulb-o"></i>

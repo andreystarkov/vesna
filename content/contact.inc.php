@@ -42,12 +42,12 @@
                         <h1>Задайте нам вопрос.</h1>
                     </header>
                     <form  style="width: 90%; margin: 0 auto" method="post" action="#" class="contact-form waypoint">
-                        <div class="row half">
+                        <div class="row">
                             <div class="6u"><input type="text" class="text" name="name" id="form-name" placeholder="Имя" /></div>
                             <div class="6u"><input type="text" class="text" name="email" id="form-back" placeholder="Обратная связь" /></div>
                         </div>
-                        <div class="row half">
-                            <div class="12u">
+                        <div class="row">
+                            <div class="12u" style="padding-top: 5px">
                                 <textarea name="message" id="form-text" placeholder="Сообщение"></textarea>
                             </div>
                         </div>
