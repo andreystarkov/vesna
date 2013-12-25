@@ -7,7 +7,7 @@
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
                     <style>
-                      .house-standalone { width: 90%; display: blockhy; position: relative; margin: 0 auto; opacity: 0;}
+                      .house-standalone { width: 95%; display: block; position: relative; margin: 0 auto; opacity: 1;}
                     </style>
 
                     <div class="house-standalone waypoint"><img width="100%" src="images/house-alone.png"></div>
@@ -23,7 +23,7 @@
 
                     </style>
 
-                    <div id="carousel-design" class="carousel slide page-slider" style="margin-top: 3em; margin-bottom: 2em; height: 315px; width: 90% ">
+                    <div id="carousel-design" class="carousel slide page-slider" style="margin-top: 3em; margin-bottom: 0; height: 315px; width: 90% ">
 
                       <div class="carousel-inner">
 

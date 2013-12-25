@@ -12,12 +12,71 @@ function hexToRgb(hex) {
 
 jQuery(function(){
 
+    if($.cookie('sent') == '1'){
+        $('#button-send').html('<i class="icon-ok-circle icon-large"></i> Ваша заявка принята');
+        $('#button-send').animate({color: 'rgba(255,255,255,1)'});
+        $('#button-send').animate({backgroundColor: '#93cb5d', borderBottomColor: '#618d37', boxShadow: 'inset 0px 0px 0px 1px #618d37, inset 0px 2px 1px 0px rgba(255,255,255,0.75)', color: 'rgba(255,255,255,0)'});
+    }
+
+    $('.not-ready').click( function(){
+      $('i', this).transition({rotate: '+360deg', color: '#b85638', textShadow: '0 0 0 rgba(0,0,0,0.4)'}, 500, function(){
+         $(this).animate({color: '#333', textShadow: '0px 2px 6px rgba(0,0,0,0.1)'});
+      });
+    });
+
+ $('.not-ready').tooltipster({
+       animation: 'grow',
+       content:  'Информация по проеку в разработке.</span>',
+       position: 'bottom', theme: '.tooltipster-punk', maxWidth: 310, trigger: 'hover' });
+
+  $('#button-send').click( function(){
+
+    var name = $('#form-name').val();
+    var back = $('#form-back').val();
+    var text = $('#form-text').val();
+
+
+        if(text == ""){
+          $('.tt-warning').tooltipster('enable');
+          $('.tt-warning').tooltipster('show');
+        } else {
+
+          $.ajax({
+            type: 'POST',
+            url: 'mail.php',
+            data: {
+              'name': name,
+              'back': back,
+              'text': text
+            },
+
+            success: function(msg){
+              $.cookie('sent', '1',{ expires: 1});
+              $('.tt-sent').tooltipster('enable');
+              $('.tt-sent').tooltipster('show');
+              $('#button-send').animate({backgroundColor: '#93cb5d', borderBottomColor: '#618d37',
+              boxShadow: 'inset 0px 0px 0px 1px #618d37, inset 0px 2px 1px 0px rgba(255,255,255,0.75)', color: 'rgba(255,255,255,0)'}, function(){
+                $('#button-send').html('<i class="icon-ok-circle icon-large"></i> Ваша заявка принята');
+                $('#button-send').animate({color: 'rgba(255,255,255,1)'});
+              });
+            }
+          });
+      }
+
+
+  });
+
+    $('.responsive-slider').each(function(){
+
+      $(this).css({maxHeight: $(this).find('img').height()+'px'});
+    });
+
     var slider = $('.carousel').carousel({
       interval: false,
       pause: true
     });
 
-    $('.house-standalone').transition({right: '100%', opacity: 0}, 50);
+    $('.house-standalone').transition({right: '0', opacity: 1}, 50);
 
     function waypointsInit(){
         $('.carousel').css({y: '-300px', opacity:'0'});
