@@ -36,10 +36,8 @@
 	header h1, .hd2 h1  { font-size: 30pt;}
 
      #carousel-design > .item > img { max-width:220%; min-height: 450px; }
- .tt-grid-wrapper nav a { font-size: 16pt; margin: 5px 5px; width: 260px !important; height: 53px !important; }
-    .tt-grid-wrapper nav a { display: inline-block; margin: 0 5px; border-radius: 8px; font-size: 17px; font-family: 'PT Sans';
-    padding: 3px 10px; color: #36302b; text-decoration: none; cursor: pointer; background-color: #ffe156; border-bottom: 6px solid #d6b342;
-    margin-bottom: 10px; box-shadow: 0 3px 13px rgba(77,65,59,.22); -webkit-transition: all 0.2s; transition: all 0.2s; margin-top: -10px;}
+    .tt-grid-wrapper nav a { display: inline-block; border-radius: 8px; font-size: 16px; font-family: 'Noto Sans'; padding: 5px 15px;
+    margin-right: 5px; margin-left: 5px;}
 
     #logo { display: none; }
     #nav { margin-top: 15px;}

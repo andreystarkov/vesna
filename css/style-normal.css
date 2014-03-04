@@ -26,8 +26,7 @@
 
     min-height: 420px;
     }
-    .tt-grid-wrapper { height: 370px; overflow: hidden;}
-    .tt-grid-wrapper nav a { font-size: 16pt; margin: 0 5px;}
+    .tt-grid-wrapper nav a { font-size: 16pt; margin: 20px 10px;}
     .box-info p {
       padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
     position: relative; line-height: 1.5em; font-size: 14pt;}

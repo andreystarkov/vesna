@@ -27,14 +27,8 @@
 		padding: 0 2em 0 2em;
 	}
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-    .tt-grid-wrapper nav a { display: inline-block; margin: 0 5px; border-radius: 8px; font-size: 20px; font-family: 'PT Sans';
-    padding: 5px 15px; color: #36302b; text-decoration: none; cursor: pointer; background-color: #ffe156; border-bottom: 6px solid #d6b342;
-    margin-bottom: 30px; box-shadow: 0 3px 13px rgba(77,65,59,.22); -webkit-transition: all 0.2s; transition: all 0.2s; }
-
+    .tt-grid-wrapper nav a { display: inline-block; border-radius: 8px; font-size: 16px; font-family: 'Noto Sans'; padding: 5px 20px;
+    margin-right: 3px; margin-left: 3px; margin-bottom: 10px;}
     .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
      .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
 
@@ -50,7 +44,7 @@
     header h1 { font-size: 45px; } header h2 { font-size: 35px;}
 	 	.sub h1 { font-size: 45px;} .sub h2 { font-size: 30px;}
 	.logo-top h1 { font-size: 45px; line-height: 1em; padding: 8px 15px;}
-
+	   #carousel-design { max-width:220%; max-height: 197px; }
 	.logo-top { position: relative; margin: 0px auto; width: 90%; margin-top: 10px; right: 5px; top: 3em; padding-top: 8px; padding-bottom: 8px; }
 	.first-sub { margin-top: 200px;}
 

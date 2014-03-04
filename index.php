@@ -46,9 +46,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 
-		<style>
-		    #logo h1 { font-family: 'Hagin Caps Medium'; font-size: 43px; color: #493d35; }
-		</style>
 
 	</head>
 	<body>

@@ -1,19 +1,5 @@
 
-      <!-- Modal -->
-      <style>
-       .modal-footer { height: 90px;}
-       .modal-content { zoom: 1; }
-       .no-padding .modal-body { padding: 0; }
-       .modal-dialog, .modal { padding: 0;}
-      .modal-footer .capt { position: absolute; left: 25px; bottom: 25px; height: 60px; padding: 8px 12px 8px 12px;
-      width: 700px; font-size: 18px; line-height: 25px; font-family: 'Noto Sans'; color: #4c4138; text-align: left;}
-      .modal-footer .btn { position: absolute; right: 25px; bottom: 25px; }
-      .sml { font-size: 16px  !important; }
 
-      .slide-900 { padding:0; top: 15%;}
-      .slide-900 .carousel { height: 450px; width: 900px; }
-      .slide-900 .modal-body, .modal-content { padding:0; width: 900px; }
-      </style>
 
       <div class="modal fade no-padding" id="plan-3" role="dialog">
         <div class="modal-dialog">

@@ -1,0 +1,35 @@
+
+    /* less engine for vesna56.ru
+       im@andreystarkov.ru */
+
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic&subset=latin,cyrillic);
+    @import "http://webfonts.ru/import/bebasneue.css";
+    @import "http://webfonts.ru/import/noto.css";
+
+    @import 'less/config.less';
+    @import "less/common.less";
+
+    @import "less/header.less";
+    @import "less/nav.less";
+    @import "less/news.less";
+    @import "less/buttons.less";
+    @import "less/elements.less";
+    @import "less/box-plan.less";
+    @import "less/design.less";
+    @import "less/plugins.less";
+    @import "less/footer.less";
+
+      @media only screen and (max-device-width: 1200px) {
+        .box-transparent p { font-size: 17px; }
+    }
+    @media only screen and (max-device-width: 960px) {
+        .box-transparent p { font-size: 16px; }
+     .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; }
+     .layer-bg { background: url(../images/px/main-house-1000.png)  center bottom; }
+    }
+
+    @media only screen and (min-device-width: 1600px) {
+      .layer-house { background: url(../images/px/main-house-1600.png) center bottom; }
+      .layer-bg { background: url(../images/px/main-bg-1600.jpg)  center bottom;  }
+    }
+

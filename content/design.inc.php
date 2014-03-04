@@ -46,35 +46,34 @@
                       <div class="carousel-inner">
                         <div class="item active">
                             <img src="images/plan/1/banner.jpg" alt="...">
-                            <div class="caption-header">Квартира-студия.</div>
-                            <a class="btn-inner" data-toggle="modal" href="#plan-1">
-                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
-                            </a>
-                            <a  class="btn-inner"data-toggle="modal" href="#int-1">
-                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
-                            </a>
+                            <!-- <div class="caption-header">Квартира-студия.</div> -->
+
+                              <a class="btn-inner" data-toggle="modal" href="#int-1">
+                                  <div class="btn-plan design nice-hover">Дизайн интерьеров <i class="fa fa-camera-retro"></i></div>
+                              </a>
+                              <a class="btn-inner" data-toggle="modal" href="#plan-1">
+                                  <div class="btn-plan plan nice-hover">Планировка <i class="fa fa-eye"></i></div>
+                              </a>
                         </div>
 
                         <div class="item">
                             <img src="images/plan/2/banner.jpg" alt="...">
-                            <div class="caption-header">Однокомнатная квартира.</div>
-                             <a class="btn-inner" data-toggle="modal" href="#plan-2">
-                                <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
-                             </a>
-                             <a class="btn-inner" data-toggle="modal" href="#int-1">
-                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
-                             </a>
+                              <a class="btn-inner" data-toggle="modal" href="#int-1">
+                                  <div class="btn-plan design nice-hover">Дизайн интерьеров <i class="fa fa-camera-retro"></i></div>
+                              </a>
+                              <a class="btn-inner" data-toggle="modal" href="#plan-1">
+                                  <div class="btn-plan plan nice-hover">Планировка <i class="fa fa-eye"></i></div>
+                              </a>
                         </div>
 
                         <div class="item">
                             <img src="images/plan/3/banner.jpg" alt="...">
-                            <div class="caption-header">Двухкомнатная квартира.</div>
-                            <a class="btn-inner" data-toggle="modal" href="#plan-3">
-                              <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
-                            </a>
-                             <a class="btn-inner" data-toggle="modal" href="#int-1">
-                                <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
-                             </a>
+                              <a class="btn-inner" data-toggle="modal" href="#int-1">
+                                  <div class="btn-plan design nice-hover">Дизайн интерьеров <i class="fa fa-camera-retro"></i></div>
+                              </a>
+                              <a class="btn-inner" data-toggle="modal" href="#plan-1">
+                                  <div class="btn-plan plan nice-hover">Планировка <i class="fa fa-eye"></i></div>
+                              </a>
                         </div>
                       </div>
                     </div>
