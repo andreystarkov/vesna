@@ -1,31 +1,33 @@
-/*
-	Prologue 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
-    .layer-house { background: url(../images/px/house-960.png) left top; width: 960px; height: 500px;}
-    .layer-bg { background: url(../images/px/bg-960.jpg) left top; width: 960px; height: 500px; }
 
 
+    .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
+     .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
     .header-image { position: absolute; top: 0; left: -60px; width: 1000px; height: 500px;}
-    .page-slider { height: 350px;}
 
-    .page-slider i { margin-top: 165px;}
+    header h1 { width: 90%; font-size: 22pt !important;}
+    #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
+    width:120%;
+    height: 120%;
 
-    .carousel-inner > .item > img {
-    max-width:350%;
-    width:200%;
-    margin-left: -15% !important;
     min-height: 420px;
     }
+    header h1, .hd2 h1  { font-size: 30pt; margin-right: 0; margin-left: 0;}
+   .news-box { width: 100%; margin: 0 auto;}
+     .carousel > .item > img { max-width:220%; min-height: 450px; }
+     .tt-grid-wrapper nav a { font-size: 14pt; margin: 5px 5px; width: 100% !important; height: 53px !important; }
+     #carousel-design .btn-inner i { display: none; }
+     #carousel-design .btn-inner { font-size: 12pt;}
 
-    .tt-grid { margin: 35px auto;}
-    .tt-grid-wrapper nav a { width: 80px; height: 70px; margin-bottom: 10px; border-radius: 8px;}
+     .box-transparent p { font-size: 16pt !important;}
+     .tt-grid { margin-top: 1em !important;}
+    .modal { width: 400px; }
+    .modal-content { width: 400px} #int-1 .modal-dialog { width: 400px} #int-1 .modal-content { width: 400px}
+    #int-1 .modal-body { width: 400px }
 
+    .btn-plan { max-height: 50px; font-size: 15px; }
+    .caption-header { top: 15px; left: 15px; height: 90px; max-width: 235px; font-size:30px;}
     .first-sub h1 { font-size: 30px; width: 90%; margin: 5px auto;}
  	.first-sub h2 { font-size: 24px; width: 70%; margin: 20px auto; color: #5d534d;}
 
@@ -52,12 +54,11 @@
     .first-sub { margin-top: 450px;}
 
     	.box-info { padding-left: 25px; margin-top: 2em; position: relative; }
-    .box-info i { position: absolute !important; top: 0; right: 0; opacity: 0.2; top: 30%; padding-right:0; padding-left:0;
+    .box-info .icn { position: absolute !important; top: 0; right: 0; opacity: 0.2; top: 20%; padding-right:0; padding-left:0;
     	font-size: 90pt; text-align: center; width: 100%; height: 100%; mposition: relative; z-index:2; }
     .box-info p { position: relative; text-indent: 25px; padding: 0; font-size: 18px; line-height: 1.5em; margin-bottom: 15px; z-index: 15;
     	color: #362f2a;}
 
-    .tt-grid { margin: 10px auto;}
 
 	body,input,textarea,select
 	{

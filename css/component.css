@@ -120,7 +120,7 @@
 
 .tt-grid-wrapper nav a.tt-current {
 	opacity: 1;
-	box-shadow: 0 0 0 10px rgba(54,48,43,0.2);
+	box-shadow: 0 3px 8px rgba(54,48,43,0.6);
 }
 
 .tt-grid.tt-effect-active li a {

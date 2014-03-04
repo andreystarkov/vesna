@@ -39,10 +39,28 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.js"></script>
 
-        <script type="text/javascript" charset="utf-8"
-        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=8sJwVSl9oGgEvht_NHsdsVhHtxO1yyhq&id=mymap"></script>
+	    <link rel="stylesheet" href="/_/root.css" />
+	    <link rel="stylesheet" href="/_/css/iview.css" />
+	    <link rel="stylesheet" href="/_/css/cpslider.css" />
+	    <link rel="stylesheet" href="/_/css/iview/skin.css" />
 
+	    <link rel="stylesheet" href="/_/css/font-awesome.min.css" />
+
+	    <script type="text/javascript" src="/_/lib/color.js"></script>
+	    <script type="text/javascript" src="/_/lib/shadow.js"></script>
+	    <script type="text/javascript" src="/_/lib/rotate.js"></script>
+	    <script type="text/javascript" src="/_/lib/raphael.js"></script>
+	    <script type="text/javascript" src="/_/js/transit.js"></script>
+	    <script type="text/javascript" src="/_/js/cookie.js"></script>
+	    <script type="text/javascript" src="/_/js/iview.js"></script>
+	    <script type="text/javascript" src="/_/js/tooltipster.js"></script>
+	    <script type="text/javascript" src="/_/engine.js"></script>
+
+
+		<script type="text/javascript" charset="utf-8"
+		src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=eiWJZzQZ6XCiygBYkHxMNNpfX19Dkdpk&id=mymap"></script>
 		<noscript>
+
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
@@ -73,6 +91,9 @@
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-home"></i> О проекте</span></a></li>
+
+								<li><a href="#news" id="design-link" class="skel-panels-ignoreHref">
+									<span><i class="icn icn fa fa-lightbulb-o"></i> Новости проекта</span></a></li>
 
 								<li><a href="#design" id="design-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-pencil-square-o"></i> Дизайн квартир</span></a></li>

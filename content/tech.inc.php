@@ -7,16 +7,16 @@
                     <header class="sub hd2">
                         <h1>Технологии строительства</h1>
                     </header>
-                        <div id="carousel-tech" class="carousel slide page-slider" style="margin-bottom: 2em">
+                        <div id="carousel-tech" class="carousel slide page-slider responsive-slider" style="margin-bottom: 2em">
 
                           <div class="carousel-inner">
                             <div class="item active">
-                                <img src="images/tech/b1.jpg" alt="...">
+                                <img src="images/tech/b1.jpg" width="100%" alt="...">
                                 <div class="carousel-caption"></div>
                             </div>
-                            <div class="item"><img src="images/tech/b2.jpg" alt="..."></div>
-                            <div class="item"><img src="images/tech/b3.jpg" alt="..."></div>
-                            <div class="item"><img src="images/tech/b4.jpg" alt="..."></div>
+                     <!--       <div class="item"><img src="images/tech/b2.jpg" alt="..."></div> -->
+                            <div class="item"><img width="100%" src="images/tech/b3.jpg" alt="..."></div>
+                            <div class="item"><img width="100%" src="images/tech/b4.jpg" alt="..."></div>
                           </div>
 
                           <a class="left carousel-control" href="#carousel-tech" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
@@ -34,6 +34,13 @@
                        <p>Стены из наших материалов устойчивы к любым атмосферным воздействиям. Стены из керамзитоблока обеспечивают прекрасную шумоизоляцию, пожаробезопасность, и
                          оптимальный микроклимат.</p>
                     </div>
+
+                    <style>
+                    .row { width: 90%; margin: 0 auto; }
+                    .row>* { padding: 5px; }
+                    .grid-box .thumb { width: 100%; height: 200px; box-shadow: 0 3px 6px rgba(0,0,0,0.4); border-radius: 8px;}
+                    </style>
+
 
 
                     <footer>

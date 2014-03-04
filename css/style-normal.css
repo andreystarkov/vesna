@@ -2,31 +2,42 @@
 	961-1620
 */
     body { overflow-x: hidden;}
-          .layer-house { background: url(../images/px/house-1300.png) center top no-repeat;  }
-    .layer-bg { background: url(../images/px/bg-1300.jpg) center top no-repeat;  }
+      .layer-house { background: url(../images/px/main-house-1600.png) center bottom; }
+      .layer-bg { background: url(../images/px/main-bg-1600.jpg)  center bottom;  }
   .layer-px { opacity: 1; width: 100%; position: absolute; height: 745px; z-index: 2; top: 0px; left: -150px;  }
     .box-info { padding-left: 50; padding-right: 25px;}
-    .box-info i {  padding-right:0; padding-left:0; font-size: 75pt;
+    .box-info .icn {  padding-right:0; padding-left:0; font-size: 75pt;
         margin: 0px auto; text-align: center; width: 150px; margin-top:5px; margin-bottom: 15px; position: relative;  }
-    .carousel-inner { height: 420px; }
-    .carousel-inner > .item > img {
 
+    #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
     width:120%;
     height: 120%;
 
     min-height: 420px;
     }
 
-       .box-info p { font-size: 16pt !important;
-      font-size: 22pt;  padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
-    position: relative; line-height: 1.5em;}
+           #carousel-design .carousel-inner { height: 420px; }
+    #carousel-design .carousel-inner > .item > img, .carousel-inner > .item > a > img  {
+    max-width: 200%;
+    width:120%;
+    height: 120%;
 
-    .first-sub h1 { font-size: 48px; width: 70%; margin: 5px auto;}
+    min-height: 420px;
+    }
+    .tt-grid-wrapper { height: 370px; overflow: hidden;}
+    .tt-grid-wrapper nav a { font-size: 16pt; margin: 0 5px;}
+    .box-info p {
+      padding-left: 2em; text-indent: 1.5em; padding-top: 0.7em; padding-right: 1em;
+    position: relative; line-height: 1.5em; font-size: 14pt;}
+
+    .first-sub h1 { font-size: 48px; width: 90%; margin: 5px auto;}
     .first-sub h2 { font-size: 32px; width: 50%; margin: 20px auto; color: #5d534d;}
 
     #nav ul li a span {  font-size: 15pt;}
     #nav ul li a i { font-size: 18pt;}
 
-   .box-info .icn { font-size: 78pt; position: absolute; left: 30px; top: 25%; }
+   .box-info .icn { font-size: 68pt; position: absolute; left: 28px; top: 24%; }
     #main { margin-left: 25%; }
     #header { width: 25%;  }

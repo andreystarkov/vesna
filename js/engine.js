@@ -11,11 +11,72 @@ function hexToRgb(hex) {
 }
 
 jQuery(function(){
+$.cookie('sent', '0',{ expires: 1});
+    if($.cookie('sent') == '1'){
+        $('#button-send').html('<i class="icon-ok-circle icon-large"></i> Ваша заявка принята');
+        $('#button-send').animate({color: 'rgba(255,255,255,1)'});
+        $('#button-send').animate({backgroundColor: '#93cb5d', borderBottomColor: '#618d37', boxShadow: 'inset 0px 0px 0px 1px #618d37, inset 0px 2px 1px 0px rgba(255,255,255,0.75)', color: 'rgba(255,255,255,0)'});
+    }
+
+    $('.not-ready').click( function(){
+      $('i', this).transition({rotate: '+360deg', color: '#b85638', textShadow: '0 0 0 rgba(0,0,0,0.4)'}, 500, function(){
+         $(this).animate({color: '#333', textShadow: '0px 2px 6px rgba(0,0,0,0.1)'});
+      });
+    });
+
+ $('.not-ready').tooltipster({
+       animation: 'grow',
+       content:  'Информация по проеку в разработке.</span>',
+       position: 'bottom', theme: '.tooltipster-punk', maxWidth: 310, trigger: 'hover' });
+
+  $('#button-send').click( function(){
+
+    var name = $('#form-name').val();
+    var back = $('#form-back').val();
+    var text = $('#form-text').val();
+
+
+        if(text == ""){
+          $('.tt-warning').tooltipster('enable');
+          $('.tt-warning').tooltipster('show');
+        } else {
+
+          $.ajax({
+            type: 'POST',
+            url: 'mail.php',
+            data: {
+              'name': name,
+              'back': back,
+              'text': text
+            },
+
+            success: function(msg){
+              $.cookie('sent', '1',{ expires: 1});
+              $('.tt-sent').tooltipster('enable');
+              $('.tt-sent').tooltipster('show');
+              $('#button-send').animate({backgroundColor: '#93cb5d', borderBottomColor: '#618d37',
+              boxShadow: 'inset 0px 0px 0px 1px #618d37, inset 0px 2px 1px 0px rgba(255,255,255,0.75)', color: 'rgba(255,255,255,0)'}, function(){
+                $('#button-send').html('<i class="icon-ok-circle icon-large"></i> Ваша заявка принята');
+                $('#button-send').animate({color: 'rgba(255,255,255,1)'});
+              });
+            }
+          });
+      }
+
+
+  });
+
+    $('.responsive-slider').each(function(){
+
+      $(this).css({maxHeight: $(this).find('img').height()+'px'});
+    });
 
     var slider = $('.carousel').carousel({
       interval: false,
       pause: true
     });
+
+    $('.house-standalone').transition({right: '0', opacity: 1}, 50);
 
     function waypointsInit(){
         $('.carousel').css({y: '-300px', opacity:'0'});
@@ -28,6 +89,10 @@ jQuery(function(){
 
         }, { offset: '5%', triggerOnce: true });
 
+ /*       $('.house-standalone').waypoint(function(direction) {
+            $(this).transition({righth: '0', rotate: '+360deg', opacity:'1'}, 1200);
+        }, { offset: '50%', triggerOnce: true });
+*/
 
         $('.carousel').waypoint(function(direction) {
             $(this).transition({y: '0', opacity:'1'}, 800);
@@ -48,7 +113,8 @@ jQuery(function(){
         }, { offset: '110%', triggerOnce: true });
 
         $('.waypoint').waypoint(function(direction) {
-        $(this).transition({opacity: 1}, 500);
+        $(this).transition({opacity: 1, right: 0}, 1000, function(){});
+
         }, { offset: '90%', triggerOnce: true});
 
     }
@@ -72,14 +138,18 @@ jQuery(function(){
         $('#nav ul li a i').css({'display': 'none'});
         $('#nav ul li a').css({'padding-left': '10px'});
         $('#nav ul li a span').css({'font-size': '16px'});
+        $('.logo-top-1').css({'right': '8%'});
+          $('.first-sub').css({'margin-top': '25em'});
 
-          $('.first-sub').css({'margin-top': '18em'});
-
-            $('.box-info i').removeClass('icn');
            $('.btn-go').css({'display': 'none'});
 
     }
 
+    if($(window).width() < 500){
+          $('.first-sub').css({'margin-top': '25em'});
+  /* $('.header-image').css({'width': $(window).width(), 'margin-left': '-', 'overflow': 'hidden'}); */
+
+    }
 
     if( ($(window).width() > 480) &&($(window).width() < 960)){
       $('.tt-gird').css({'max-width': '100%'});
