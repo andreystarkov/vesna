@@ -3,7 +3,7 @@
             .box-transparent p { font-family: 'Open Sans Condensed'; font-size: 27pt; color: #473c34; font-weight: 500; font-style: italic; }
             .box-transparent .fa { font-size: 52pt; margin-top: 10px;}
             </style>
-            <section id="design" class="two">
+            <section id="design" class="two tt-grid-wrapper">
 
                 <div class="container">
 
@@ -13,49 +13,43 @@
                     <style>
                       .house-standalone { width: 90%; display: block; position: relative; margin: 0 auto; opacity: 1;}
                       .content-slider .item { box-shadow: 0 0 0 rgba(0,0,0,0); }  .content-slider .carousel-control a { border-bottom: 0;}
+                      #nav-design { }
                     </style>
 
 
+                  <div id="carousel-houses" class="carousel slide page-slider content-slider" style="">
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="house-standalone waypoint"><img width="100%" src="images/house-alone.png"></div>
+                      </div>
+                      <div class="item">
+                          <div class="house-standalone waypoint"><img width="100%" src="images/house-alone-1.png"></div>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-houses" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
+                    <a class="right carousel-control" href="#carousel-houses" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
+                  </div>
 
-        <div id="carousel-houses" class="carousel slide page-slider content-slider" style="">
-
-          <div class="carousel-inner">
-
-            <div class="item active">
-              <div class="house-standalone waypoint"><img width="100%" src="images/house-alone.png"></div>
-            </div>
-
-            <div class="item">
-                <div class="house-standalone waypoint"><img width="100%" src="images/house-alone-1.png"></div>
-            </div>
-
-          </div>
-
-          <a class="left carousel-control" href="#carousel-houses" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
-          <a class="right carousel-control" href="#carousel-houses" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
-
-        </div>
                     <div class="box-info box-transparent">
-
                         <p>Для того, чтобы помочь Вам
                         представить будущую квартиру и сделать ее обустройство легким и приятным, наши
                         дизайнеры разработали несколько интерьерных решений.</p>
                     </div>
 
+                    <nav id="nav-design">
+                        <a class="btn-studio tt-current">Квартира-студия</a>
+                        <a class="btn-flat-1">Однокомнатная квартира</a>
+                        <a class="btn-flat-2">Двухкомнатная квартира</a>
+                    </nav>
 
-
-                    <div id="carousel-design" class="carousel slide page-slider" style="margin-top: 3em; margin-bottom: 0.5em; height: 315px; width: 90% ">
-
+                    <div id="carousel-design" class="carousel slide page-slider" style="margin-top: 0em; margin-bottom: 0.5em; height: 315px; width: 90% ">
                       <div class="carousel-inner">
-
                         <div class="item active">
                             <img src="images/plan/1/banner.jpg" alt="...">
                             <div class="caption-header">Квартира-студия.</div>
-
                             <a class="btn-inner" data-toggle="modal" href="#plan-1">
                                 <div class="btn-plan plan nice-hover"><i class="fa fa-eye"></i> Планировка</div>
                             </a>
-
                             <a  class="btn-inner"data-toggle="modal" href="#int-1">
                                 <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
                             </a>
@@ -82,20 +76,10 @@
                                 <div class="btn-plan design nice-hover"><i class="fa fa-camera-retro"></i> Дизайн интерьеров</div>
                              </a>
                         </div>
-
                       </div>
-
                     </div>
 
-                    <section class="tt-grid-wrapper" style="margin-top: 1em; margin-bottom: 1em">
-
-                    <nav>
-                        <a class="btn-studio tt-current">Квартира-студия</a>
-                        <a class="btn-flat-1">Однокомнатная квартира</a>
-                        <a class="btn-flat-2">Двухкомнатная квартира</a>
-                    </nav>
-
-                    <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 0.5em">
+                    <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 1em">
                         <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></a></li>
                         <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
                         <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
@@ -103,7 +87,7 @@
 
                     </ul>
 
-                </section>
+
 
      <!--        <div class="box-info s1">
                 <i class="icn fa-leaf fa grn"></i><p>

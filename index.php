@@ -8,59 +8,36 @@
 		<title>Весенний квартал</title>
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-
 		<link rel="icon" type="image/png" href="images/fav.png" />
 
-        <!-- by Andrey Starkov
-             im@andreystarkov.ru
+        <!-- im@andreystarkov.ru
              webscapes.ru -->
 
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet/less" type="text/css" href="css/root.less" />
 
-		<link rel="stylesheet" type="text/css" href="css/root.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/tooltipster.css" /
-
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-
 		<link href="fonts/hagincaps/font.css" rel="stylesheet" type="text/css" />
 
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 
 		<script src="js/modernizr.custom.js"></script>
-
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.js"></script>
+        <script src="js/vendor/less-1.7.0.min.js"></script>
 
-	    <link rel="stylesheet" href="/_/root.css" />
-	    <link rel="stylesheet" href="/_/css/iview.css" />
-	    <link rel="stylesheet" href="/_/css/cpslider.css" />
-	    <link rel="stylesheet" href="/_/css/iview/skin.css" />
-
-	    <link rel="stylesheet" href="/_/css/font-awesome.min.css" />
-
-	    <script type="text/javascript" src="/_/lib/color.js"></script>
-	    <script type="text/javascript" src="/_/lib/shadow.js"></script>
-	    <script type="text/javascript" src="/_/lib/rotate.js"></script>
-	    <script type="text/javascript" src="/_/lib/raphael.js"></script>
-	    <script type="text/javascript" src="/_/js/transit.js"></script>
-	    <script type="text/javascript" src="/_/js/cookie.js"></script>
-	    <script type="text/javascript" src="/_/js/iview.js"></script>
-	    <script type="text/javascript" src="/_/js/tooltipster.js"></script>
-	    <script type="text/javascript" src="/_/engine.js"></script>
-
+        <script type="text/javascript" charset="utf-8">
+          less.env = "development";
+          less.watch();
+        </script>
 
 		<script type="text/javascript" charset="utf-8"
 		src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=eiWJZzQZ6XCiygBYkHxMNNpfX19Dkdpk&id=mymap"></script>
-		<noscript>
 
+		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
@@ -76,9 +53,6 @@
 	</head>
 	<body>
 
- <!-- Button trigger modal -->
-
-
 			<div id="header" class="skel-panels-fixed">
 
 				<div class="top">
@@ -92,8 +66,8 @@
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-home"></i> О проекте</span></a></li>
 
-								<li><a href="#news" id="design-link" class="skel-panels-ignoreHref">
-									<span><i class="icn icn fa fa-lightbulb-o"></i> Новости проекта</span></a></li>
+							<!--	<li><a href="#news" id="design-link" class="skel-panels-ignoreHref">
+									<span><i class="icn icn fa fa-lightbulb-o"></i> Новости проекта</span></a></li>  -->
 
 								<li><a href="#design" id="design-link" class="skel-panels-ignoreHref">
 									<span><i class="icn icn fa fa-pencil-square-o"></i> Дизайн квартир</span></a></li>
@@ -126,27 +100,12 @@
 
 				<div class="bottom">
 
-			<!--	<div class="form-feedback">
-					<h1>Задайте вопрос</h1>
-					<form>
-						<textarea name="text"></textarea>
-						<div class="btn-send"><i class="icn fa fa-comment-o icn-btn"></i> Отправить сообщение</div>
-					<form>
-				</div>  -->
-
 				</div>
 
 			</div>
 
 			<div id="main">
-
-
-                    <?
-                        includeContent();
-                    ?>
-
-
-
+                <? includeContent(); ?>
 			</div>
 
 	<!-- Footer -->
@@ -154,20 +113,16 @@
 
 			<!-- Copyright -->
 				<div class="copyright">
-					<p>&copy; 2013 &mdash;</p>
-					<ul class="menu">
-						<li></li>
-						<li></li>
-					</ul>
+					<p>&copy; 2013 &mdash; Строительная компания &laquo;Весна&raquo;</p>
 				</div>
 
 		</div>
 
     <? include "content/_modals.inc.php"; ?>
 
-	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
 
-    <script src="js/bootstrap.js"></script>
 
 	<script src="js/colors.js"></script>
 	<script src="js/transit.js"></script>
