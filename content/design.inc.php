@@ -105,9 +105,8 @@
                     <div class="carousel-caption"></div>
                 </div>
                  <div class="item"><img width="100%" src="images/tech/1a-plan.jpg" alt="..."></div>
-                <div class="item"><img width="100%" src="images/tech/1.jpg" alt="..."></div>
+                 <div class="item"><img width="100%" src="images/tech/1.jpg" alt="..."></div>
                  <div class="item"><img width="100%" src="images/tech/1-plan.jpg" alt="..."></div>
-
               </div>
 
               <a class="left carousel-control" href="#carousel-intro" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>

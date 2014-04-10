@@ -11,9 +11,11 @@
 		<link rel="icon" type="image/png" href="images/fav.png" />
 
         <!-- im@andreystarkov.ru
-             webscapes.ru -->
+             webscapes.ru
 
         <link rel="stylesheet/less" type="text/css" href="css/root.less" />
+		-->
+		<link rel="stylesheet" type="text/css" href="css/root.css" />
 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
@@ -27,12 +29,14 @@
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.js"></script>
-        <script src="js/vendor/less-1.7.0.min.js"></script>
 
+		<!--
+        <script src="js/vendor/less-1.7.0.min.js"></script>
         <script type="text/javascript" charset="utf-8">
           less.env = "development";
           less.watch();
         </script>
+		-->
 
 		<script type="text/javascript" charset="utf-8"
 		src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=eiWJZzQZ6XCiygBYkHxMNNpfX19Dkdpk&id=mymap"></script>
@@ -46,7 +50,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 
-
 	</head>
 	<body>
 
@@ -54,9 +57,7 @@
 
 				<div class="top">
 
-						<div id="logo">
-							<h1>Весенний квартал</h1>
-						</div>
+						<div id="logo"></div>
 
 						<nav id="nav">
 							<ul>
@@ -107,19 +108,18 @@
 
 	<!-- Footer -->
 		<div id="footer">
-
 			<!-- Copyright -->
 				<div class="copyright">
 					<p>&copy; 2013 &mdash; Строительная компания &laquo;Весна&raquo;</p>
+					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация (изменения)</a>
+					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация</a>
 				</div>
-
 		</div>
 
     <? include "content/_modals.inc.php"; ?>
 
 	<script src="js/vendor/jquery-1.11.0.min.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
-
 
 	<script src="js/colors.js"></script>
 	<script src="js/transit.js"></script>
@@ -131,7 +131,6 @@
     <script src="js/waypoints.js"></script>
 
 	<script src="js/init.js"></script>
-
     <script src="js/engine.js"></script>
     <script src="js/mail.js"></script>
 
@@ -139,7 +138,16 @@
 	<script src="js/requestAnimationFrame.js"></script>
 	<script src="js/img-grid.js"></script>
 
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+	  ga('create', 'UA-48985751-1', 'vesna56.ru');
+	  ga('send', 'pageview');
+
+	</script>
 	</body>
 
 </html>

@@ -13,7 +13,6 @@
                             <h1>Инфраструктура</h1>
                         </header>
 
-
                         <div id="carousel-struct" class="carousel slide page-slider responsive-slider">
 
                           <div class="carousel-inner">
@@ -50,6 +49,13 @@
                             пойму р.Урал для отдыха, развлечений и занятий спортом жителями комплекса.
                             У каждого жилого дома предусмотрены гостевые автостоянки.</p>
                          </div>
+
+                         <h3>План-схема квартала</h3>
+
+                        <a class="img-responsive waypoint" href="images/plan-big.jpg" target="_blank">
+                          <span>Нажмите, чтобы открыть в полном размере</span>
+                          <img src="images/plan-1.png">
+                        </a>
 
 
                  <!--     <div class="house-standalone waypoint"><img width="100%" src="images/house-top.png"></div> -->

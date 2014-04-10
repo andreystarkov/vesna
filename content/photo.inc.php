@@ -1,40 +1,31 @@
 
         <!-- Фотоотчет -->
-        <style>
-       /*  #carousel-example-generic { width: 90%; margin: 0 auto; height: 426px;  box-shadow: 0 5 40px rgba(81,75,65,0.3);  }*/
-        .carousel-caption h2 {
 
-            font-family: 'Open Sans Condensed'; color: #222; }
-        </style>
 
             <section id="photo" class="two">
                 <div class="container">
 
                     <header class="sub hd2">
-                        <h1>Фотоотчет с места строительства</h1>
-                    </header>
-                    <!--
-                    <div id="carousel-example-generic" class="carousel slide" style="overflow: hidden; border-radius: 10px;">
+                        <h1>Фотоотчет от 7-го апреля 2014 года.</h1>
+                        <div id="carousel-report" class="carousel slide page-slider responsive-slider">
 
-                      <div class="carousel-inner" style="overflow: hidden; border-radius: 10px;">
-                        <div class="item active"><img src="images/pic08.jpg" alt="...">
-                            <div class="carousel-caption">
-                                <h2>Завершено строительство дворика волзе дома №5</h2>
-                                <h3>Фотоотчет за 15 марта 2014 года.</h3>
-                              </div>
+                          <div class="carousel-inner">
+                        <div class="item active"><img src="images/report/2/1.jpg" alt="...">
                         </div>
-                        <div class="item"><img src="images/pic08.jpg" alt="..."></div>
-                         <div class="item"><img src="images/pic08.jpg" alt="..."></div>
-                      </div>
+                        <div class="item"><img src="images/report/2/2.jpg" alt="..."></div>
+                        <div class="item"><img src="images/report/2/3.jpg" alt="..."></div>
+                        <div class="item"><img src="images/report/2/4.jpg" alt="..."></div>
+                          </div>
 
-                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="icon-prev"></span></a>
-                      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="icon-next"></span></a>
-                    </div>
-                    -->
+                          <a class="left carousel-control" href="#carousel-report" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
+                          <a class="right carousel-control" href="#carousel-report" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
+                        </div>
+
+
 
                     <div class="box-info" style="margin-top: 3em">
                     <i class="icn fa-camera-retro fa"></i>
-                    <p>Здесь будет размещатся фотоотчет по прохождении каждого из этапов строительства. Подробнее о сроках строительства можно узнать в <a href="#time">соответстсвующем разделе</a>.</p>
+                    <p>Здесь размещается фотоотчет по прохождении каждого из этапов строительства. Подробнее о сроках строительства можно узнать в <a href="#time">соответстсвующем разделе</a>.</p>
 
                     </div>
 

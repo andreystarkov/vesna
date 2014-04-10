@@ -123,6 +123,7 @@ jQuery(function(){
     $('.house-standalone').transition({right: '0', opacity: 1}, 50);
 
     function waypointsInit(){
+        $('.waypoint').transition({right: '-1500px', opacity: 0}, 10);
         $('.carousel').css({y: '-300px', opacity:'0'});
         $('.box-info').css({y: '300px', opacity:'0'});
         $('.btn-go').css({x: '500px', opacity: '0'});
@@ -141,7 +142,7 @@ jQuery(function(){
             $(this).transition({x: '0', opacity:'1', rotate: '+=360deg'}, 800);
         }, { offset: '75%', triggerOnce: true });
 
-        $('.sub h1').waypoint(function(direction) {
+        $('.sub h1, h3').waypoint(function(direction) {
         $(this).transition({scale: '1.3', opacity:'1'}, 500, function(){
         $(this).transition({scale: '1'}, 300);
         });
@@ -194,6 +195,13 @@ jQuery(function(){
             $(this).append('<i class="fa-angle-double-down fa i-2"></i>');
           }
     });
+
+    $('.img-responsive').hover(function(){
+        $('span', this).transition({opacity: '1', scale:1});
+    }, function(){
+        $('span', this).transition({opacity: '0', scale:0});
+    });
+
 
     $('.round').hover(function(){
         $('.i-1', this).transition({top: '250px', opacity:0});
