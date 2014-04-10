@@ -158,7 +158,6 @@ jQuery(function(){
         }, { offset: '90%', triggerOnce: true});
 
     }
-
     $('.img-thumb span').html('<i class="fa fa-search"></i>');
 
     $('.img-thumb').hover(function(){

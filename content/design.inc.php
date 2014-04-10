@@ -15,9 +15,24 @@
                       .content-slider .item { box-shadow: 0 0 0 rgba(0,0,0,0); }  .content-slider .carousel-control a { border-bottom: 0;}
                       #nav-design { }
                     </style>
+  <!--
+                      <div id="carousel-houses" class="carousel slide page-slider responsive-slider">
 
+                        <div class="carousel-inner">
+                          <div class="item active">
+                               <div class="item"><img width="100%" src="images/tech/2.jpg" alt="..."></div>
+                              <div class="carousel-caption"></div>
+                          </div>
 
-                  <div id="carousel-houses" class="carousel slide page-slider content-slider" style="">
+                          <div class="item"><img width="100%" src="images/tech/4.jpg" alt="..."></div>
+
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-houses" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
+                        <a class="right carousel-control" href="#carousel-houses" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
+                      </div>
+
+              <div id="carousel-houses" class="carousel slide page-slider content-slider" style="">
                     <div class="carousel-inner">
                       <div class="item active">
                         <div class="house-standalone waypoint"><img width="100%" src="images/house-alone.png"></div>
@@ -28,7 +43,7 @@
                     </div>
                     <a class="left carousel-control" href="#carousel-houses" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
                     <a class="right carousel-control" href="#carousel-houses" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
-                  </div>
+                  </div>    -->
 
                     <div class="box-info box-transparent">
                         <p>Для того, чтобы помочь Вам
@@ -104,9 +119,9 @@
                     <div class="item"><img width="100%" src="images/tech/1a.jpg" alt="..."></div>
                     <div class="carousel-caption"></div>
                 </div>
-                 <div class="item"><img width="100%" src="images/tech/1a-plan.jpg" alt="..."></div>
-                 <div class="item"><img width="100%" src="images/tech/1.jpg" alt="..."></div>
                  <div class="item"><img width="100%" src="images/tech/1-plan.jpg" alt="..."></div>
+                 <div class="item"><img width="100%" src="images/tech/house-5.jpg" alt="..."></div>
+                 <div class="item"><img width="100%" src="images/tech/5p.jpg" alt="..."></div>
               </div>
 
               <a class="left carousel-control" href="#carousel-intro" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>

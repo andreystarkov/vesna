@@ -21,7 +21,6 @@
                                 <div class="carousel-caption"></div>
                             </div>
 
-                            <div class="item"><img width="100%" src="images/tech/4.jpg" alt="..."></div>
 
                           </div>
 

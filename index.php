@@ -115,9 +115,9 @@
 					<div class="cells">
 					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация (изменения)</a>
 					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация</a>
-					<a href="files/project.docx"><i class="fa fa-download"></i> Разрешение на строительство</a>
-					<a href="files/project.docx"><i class="fa fa-download"></i> Свидетельство ИНН</a>
-					<a href="files/project.docx"><i class="fa fa-download"></i> Свидетельство ОГРН</a>
+					<a target="_blank" href="images/docs/razr.jpg"><i class="fa fa-download"></i> Разрешение на строительство</a>
+					<a target="_blank" href="images/docs/inn.jpg"><i class="fa fa-download"></i> Свидетельство ИНН</a>
+					<a target="_blank" href="images/docs/ogrn.jpg"><i class="fa fa-download"></i> Свидетельство ОГРН</a>
 					</div>
 				</div>
 		</div>
