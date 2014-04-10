@@ -47,7 +47,9 @@
                     <a data-toggle="modal" href="#m-map-3">Посмотреть интерактивную карту проезда</a>
 
                   </div>
+            </section>
 
+            <section id="contact-form" class="two">
                     <header class="sub last">
                         <h1>Задайте нам вопрос.</h1>
                     </header>
@@ -64,5 +66,4 @@
                         <div id="button-send" class="submit btn btn-send"><i class="icn fa-comment-o fa tt-send"></i> Отправить сообщение</div>
                     </form>
 
-                </div>
             </section>

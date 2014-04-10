@@ -19,7 +19,10 @@
      .tt-grid-wrapper nav a { font-size: 14pt; margin: 5px 5px; width: 100% !important; height: 53px !important; }
      #carousel-design .btn-inner i { display: none; }
      #carousel-design .btn-inner { font-size: 12pt;}
-
+     #contact-form { padding-top: 70px;}
+     #contact-form textarea { margin-bottom: 30px;}
+     #contact-form input, textarea { padding: 0.3em 1em 0.3em 1em; width: 100%; margin: 0 auto; }
+      #contact-form .row { margin-right:0; padding-right: 0; width: 100%;}
      .box-transparent p { font-size: 16pt !important;}
      .tt-grid { margin-top: 1em !important;}
     .modal { width: 400px; }

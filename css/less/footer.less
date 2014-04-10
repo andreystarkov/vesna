@@ -27,15 +27,23 @@
     }
 
     #footer {
+
+        .cell-left, .cell-right {
+          float: left; width: 45%; text-align:left;
+        }
+
+        .cells { padding-left: 10%; width: 90%; margin:0 auto; }
+
         a {
           color: rgba(231,223,218,0.5);
           font-family: @subheader-font;
           text-decoration: none;
-          font-size: 26px;
+          float: left;
+          font-size: 18px;
           display: block;
           border-bottom: 0px;
           margin: 5px auto;
-          margin-right: 15px;
+          margin-right: 25px;
           i {
             margin-right: 10px;
           }
@@ -44,6 +52,7 @@
             text-decoration: none;
           }
         }
+
         margin-left: 375px;
         text-align: center;
         background-color: #5d554b;

@@ -13,6 +13,9 @@
 		font-size: 16pt;
 	}
 
+	#nav { padding-top: 20px;}
+	#logo { display: none;}
+
     section h3 {
 
 		font-size: 35px;
@@ -22,6 +25,11 @@
 		{
 			display: none;
 		}
+
+	#titleBar {
+		/* background: rgba(83,86,58,0.8); */
+		color: #fff;
+	}
 
 	.container
 	{
@@ -127,14 +135,3 @@
 	{
 	}
 
-		#sidePanelToggle .toggle
-		{
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 150%;
-			height: 150%;
-			background: rgba(128,136,144,0.7) url('images/toggle.svg') center center no-repeat;
-			border-radius: 0.35em;
-			margin: 0.25em;
-		}

@@ -53,6 +53,7 @@
 	</head>
 	<body>
 
+			<div class="top-panel" id="top-panel"></div>
 			<div id="header" class="skel-panels-fixed">
 
 				<div class="top">
@@ -111,8 +112,13 @@
 			<!-- Copyright -->
 				<div class="copyright">
 					<p>&copy; 2013 &mdash; Строительная компания &laquo;Весна&raquo;</p>
+					<div class="cells">
 					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация (изменения)</a>
 					<a href="files/project.docx"><i class="fa fa-download"></i> Проектная декларация</a>
+					<a href="files/project.docx"><i class="fa fa-download"></i> Разрешение на строительство</a>
+					<a href="files/project.docx"><i class="fa fa-download"></i> Свидетельство ИНН</a>
+					<a href="files/project.docx"><i class="fa fa-download"></i> Свидетельство ОГРН</a>
+					</div>
 				</div>
 		</div>
 
