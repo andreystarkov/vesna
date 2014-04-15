@@ -20,6 +20,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/imagelightbox.css" />
 
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link href="fonts/hagincaps/font.css" rel="stylesheet" type="text/css" />
@@ -136,7 +137,8 @@
     <script src="js/tooltipster.js"></script>
 	<script src="js/parallax.js"></script>
     <script src="js/waypoints.js"></script>
-
+    <script src="js/imagelightbox.min.js"></script>
+    <script src="js/imagelightbox-init.js"></script>
 	<script src="js/init.js"></script>
     <script src="js/engine.js"></script>
     <script src="js/mail.js"></script>

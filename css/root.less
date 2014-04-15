@@ -24,6 +24,7 @@
       .carousel {  margin-top: 30px;}
     }
 
+    .nowhere { display: none !important; }
     .step-bottom {
       margin-bottom:1.4em;
     }
@@ -92,7 +93,7 @@
         position: absolute;
         top: 45%;
         left: 10%;
-        display: block;
+        display: blo
       }
       display: block;
       position: relative;
@@ -106,6 +107,36 @@
         height: 100%;
       }
     }
+
+    .box-transparent {
+        padding: 0;
+        background: rgba(0,0,0,0);
+        border-bottom: 0;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+    .box-transparent p {
+        font-family: 'Open Sans Condensed';
+        font-size: 27pt;
+        color: #473c34;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .box-transparent .fa {
+        font-size: 52pt;
+        margin-top: 10px;
+    }
+    .house-standalone {
+        width: 90%;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        opacity: 1;
+    }
+    .content-slider .item { box-shadow: 0 0 0 rgba(0,0,0,0) }
+    .content-slider .carousel-control a { border-bottom: 0 }
 
       .layer-house { background: url(../images/px/house-1600.png) center bottom; }
       .layer-bg { background: url(../images/px/bg-1600.jpg)  center bottom;  }

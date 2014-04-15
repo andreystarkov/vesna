@@ -1,8 +1,4 @@
-            <style>
-            .box-transparent { padding: 0; background: rgba(0,0,0,0); border-bottom: 0; width: 90%; margin: 0 auto; position: relative; box-shadow: 0 0 0 rgba(0,0,0,0); }
-            .box-transparent p { font-family: 'Open Sans Condensed'; font-size: 27pt; color: #473c34; font-weight: 500; font-style: italic; }
-            .box-transparent .fa { font-size: 52pt; margin-top: 10px;}
-            </style>
+
             <section id="design" class="two tt-grid-wrapper">
 
                 <div class="container">
@@ -10,11 +6,7 @@
                     <header class="sub hd2">
                         <h1>Планировка и дизайн квартир</h1>
                     </header>
-                    <style>
-                      .house-standalone { width: 90%; display: block; position: relative; margin: 0 auto; opacity: 1;}
-                      .content-slider .item { box-shadow: 0 0 0 rgba(0,0,0,0); }  .content-slider .carousel-control a { border-bottom: 0;}
-                      #nav-design { }
-                    </style>
+
 
                       <div id="carousel-house" class="carousel slide page-slider responsive-slider step-bottom">
 
@@ -94,20 +86,26 @@
                       </div>
                     </div>
 
-                    <ul class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 1em">
-                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></a></li>
-                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
-                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
-                        <li><a data-toggle="modal" href="#int-1"><div class="tt-img" style="background:url(images/plan/1/4t.jpg)"><span></span></div></a></li>
-
+                    <ul id="grid-page-1" class="tt-grid tt-effect-fall tt-effect-delay" style="margin-top: 1em">
+                        <li><a href="images/plan/1/1.jpg"><div class="tt-img" style="background:url(images/plan/1/1t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/1/2.jpg"><div class="tt-img" style="background:url(images/plan/1/2t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/1/3.jpg"><div class="tt-img" style="background:url(images/plan/1/3t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/1/4.jpg"><div class="tt-img" style="background:url(images/plan/1/4t.jpg)"><span></span></div></a></li>
                     </ul>
 
+                    <ul id="grid-page-2" class="tt-grid-page nowhere">
+                        <li><a href="images/plan/2/1.jpg"><div class="tt-img" style="background:url(images/plan/2/1t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/2/2.jpg"><div class="tt-img" style="background:url(images/plan/2/2t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/2/3.jpg"><div class="tt-img" style="background:url(images/plan/2/3t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/2/4.jpg"><div class="tt-img" style="background:url(images/plan/2/4t.jpg)"><span></span></div></a></li>
+                    </ul>
 
-
-     <!--        <div class="box-info s1">
-                <i class="icn fa-leaf fa grn"></i><p>
-                Выше были представлены тестовые варианты
-            </div>-->
+                    <ul id="grid-page-3" class="tt-grid-page nowhere">
+                        <li><a href="images/plan/3/1.jpg"><div class="tt-img" style="background:url(images/plan/3/1t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/3/2.jpg"><div class="tt-img" style="background:url(images/plan/3/2t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/3/3.jpg"><div class="tt-img" style="background:url(images/plan/3/3t.jpg)"><span></span></div></a></li>
+                        <li><a href="images/plan/3/4.jpg"><div class="tt-img" style="background:url(images/plan/3/4t.jpg)"><span></span></div></a></li>
+                    </ul>
 
             <header class="sub hd2">
                 <h1>Варианты домов и планировок</h1>
