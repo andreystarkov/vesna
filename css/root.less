@@ -24,6 +24,9 @@
       .carousel {  margin-top: 30px;}
     }
 
+    .step-bottom {
+      margin-bottom:1.4em;
+    }
 
     section h3 {
       margin-top: 1.7em;
@@ -49,11 +52,13 @@
     }
 
     .ask-question {
-      float: right;
+      opacity: 0.7;
+      z-index: 10001;
+      position:fixed; top:0; right: 0;
       display: block;
-      background: rgba(243,214,81,0.95);
+      background: rgb(243,214,81);
       padding: 5px 18px;
-      height: 50px;
+      height: 60px;
       font-weight:500;
       border-bottom: 3px solid mix(rgb(243,214,81), #666, 70%);
       box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
@@ -61,9 +66,15 @@
         font-family: 'Bebas Neue';
       font-size: 1.1em;
       border-bottom-left-radius: 8px;
+      transition: 0.6s ease-in-out all;
       i {
         margin-left: 15px;
         font-size: 1em;
+      }
+      &:hover {
+        opacity:1;
+        text-decoration: none;
+        color: #000;
       }
     }
 
@@ -87,8 +98,8 @@
       position: relative;
       margin: 1em auto;
       margin-bottom: 1em;
-      width: 668px;
-      height: 683px;
+      width: 1260px;
+      height: 945px;
       text-align:center;
       img {
         width: 100%;
@@ -96,18 +107,24 @@
       }
     }
 
+      .layer-house { background: url(../images/px/house-1600.png) center bottom; }
+      .layer-bg { background: url(../images/px/bg-1600.jpg)  center bottom;  }
     @media only screen and (max-device-width: 1200px) {
         .box-transparent p { font-size: 17px; }
     }
-
+    @media only screen and (max-device-width: 1400px) and (min-device-width: 1000px) {
+        .box-transparent p { font-size: 18px; }
+       .layer-house { background: url(../images/px/house-1300.png)  center bottom; }
+        .layer-bg { background: url(../images/px/house-1300.png)  center bottom; }
+    }
     @media only screen and (max-device-width: 960px) {
         .box-transparent p { font-size: 16px; }
-     .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; }
-     .layer-bg { background: url(../images/px/main-house-1000.png)  center bottom; }
+     .layer-house { background: url(../images/px/house-1000.png)  center bottom; }
+     .layer-bg { background: url(../images/px/house-1000.png)  center bottom; }
     }
 
     @media only screen and (min-device-width: 1600px) {
-      .layer-house { background: url(../images/px/main-house-1600.png) center bottom; }
-      .layer-bg { background: url(../images/px/main-bg-1600.jpg)  center bottom;  }
+      .layer-house { background: url(../images/px/house-1600.png) center bottom; }
+      .layer-bg { background: url(../images/px/bg-1600.jpg)  center bottom;  }
     }
 

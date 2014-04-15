@@ -30,7 +30,6 @@
     max-width: 200%;
     width:120%;
     height: 120%;
-
     min-height: 420px;
     }
 	header h1, .hd2 h1  { font-size: 30pt;}
@@ -39,7 +38,7 @@
     .tt-grid-wrapper nav a { display: inline-block; border-radius: 8px; font-size: 16px; font-family: 'Noto Sans'; padding: 5px 15px;
     margin-right: 5px; margin-left: 5px;}
 
-    #logo { display: none; }
+    #logo { min-height: 165px; background-position: center -7px; margin-bottom: 0.3em; margin: 0em auto; border-top-left-radius: 0px; border-top-right-radius: 0px;}
     #nav { margin-top: 15px;}
     #nav ul li a span { font-size: 12pt; }
 
@@ -49,6 +48,13 @@
 
     min-height: 450px;
     }
+	#nav ul li a
+	{
+		font-size: 0.7em;
+		padding-top: 0.04em;
+		padding-bottom: 0.04em;
+		border-bottom: 1px;
+	}
 
     .carousel-control i { }
 
@@ -61,8 +67,6 @@
 	{
 		padding: 0 2em 0 2em;
 	}
-
-	/* Lists */
 
 		ul.icons
 		{
@@ -77,9 +81,6 @@
 				width: 1.75em;
 			}
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
 	#main
 	{
 		margin-left: 25%;
@@ -111,12 +112,6 @@
 			{
 			}
 
-				#nav ul li a
-				{
-					font-size: 0.8em;
-					padding-top: 0.1em;
-					padding-bottom: 0.1em;
-				}
 
 					#nav ul li a span
 					{

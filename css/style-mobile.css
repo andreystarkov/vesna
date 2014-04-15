@@ -1,7 +1,8 @@
 
 
-    .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
-     .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
+    .layer-house { background: url(../images/px/house-1000.png) top center no-repeat; width: 960px; height: 500px;}
+     .layer-bg { background: url(../images/px/bg-1000.jpg) top center no-repeat; width: 960px; height: 500px;}
+
     .header-image { position: absolute; top: 0; left: -60px; width: 1000px; height: 500px;}
 
     header h1 { width: 90%; font-size: 22pt !important;}

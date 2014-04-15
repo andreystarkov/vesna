@@ -5,8 +5,8 @@
 
             <div class="header-image">
                 <ul id="scene" class="scene">
-                    <li class="layer" data-depth="0.30"><div class="layer-bg layer-px"></div></li>
-                    <li class="layer" data-depth="1.70"><div class="layer-house layer-px"></div></li>
+                    <li class="layer" data-depth="1.40"><div class="layer-bg layer-px"></div></li>
+                    <li class="layer" data-depth="0.70"><div class="layer-house layer-px"></div></li>
                 </ul>
 
             </div>

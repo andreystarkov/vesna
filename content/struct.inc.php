@@ -13,20 +13,10 @@
                             <h1>Инфраструктура</h1>
                         </header>
 
-                        <div id="carousel-struct" class="carousel slide page-slider responsive-slider">
-
-                          <div class="carousel-inner">
-                            <div class="item active">
-                                 <div class="item"><img width="100%" src="images/tech/2.jpg" alt="..."></div>
-                                <div class="carousel-caption"></div>
-                            </div>
-
-
-                          </div>
-
-                          <a class="left carousel-control" href="#carousel-struct" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
-                          <a class="right carousel-control" href="#carousel-struct" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
-                        </div>
+                        <a class="img-responsive waypoint" href="images/plan.jpg" target="_blank">
+                          <span>Нажмите, чтобы открыть в отдельном окне</span>
+                          <img src="images/plan.jpg">
+                        </a>
 
                         <div class="box-info s3" style="margin-top: 2em">
                         <i class="icn fa-hospital fa"></i>
@@ -48,14 +38,6 @@
                             пойму р.Урал для отдыха, развлечений и занятий спортом жителями комплекса.
                             У каждого жилого дома предусмотрены гостевые автостоянки.</p>
                          </div>
-
-                         <h3>План-схема квартала</h3>
-
-                        <a class="img-responsive waypoint" href="images/plan-big.jpg" target="_blank">
-                          <span>Нажмите, чтобы открыть в полном размере</span>
-                          <img src="images/plan-1.png">
-                        </a>
-
 
                  <!--     <div class="house-standalone waypoint"><img width="100%" src="images/house-top.png"></div> -->
 

@@ -15,23 +15,24 @@
                       .content-slider .item { box-shadow: 0 0 0 rgba(0,0,0,0); }  .content-slider .carousel-control a { border-bottom: 0;}
                       #nav-design { }
                     </style>
-  <!--
-                      <div id="carousel-houses" class="carousel slide page-slider responsive-slider">
+
+                      <div id="carousel-house" class="carousel slide page-slider responsive-slider step-bottom">
 
                         <div class="carousel-inner">
                           <div class="item active">
-                               <div class="item"><img width="100%" src="images/tech/2.jpg" alt="..."></div>
+                               <div class="item"><img width="100%" src="images/houses/5p.jpg" alt="..."></div>
                               <div class="carousel-caption"></div>
                           </div>
 
-                          <div class="item"><img width="100%" src="images/tech/4.jpg" alt="..."></div>
-
+                          <div class="item"><img width="100%" src="images/houses/5p2.jpg" alt="..."></div>
+                          <div class="item"><img width="100%" src="images/houses/3p.jpg" alt="..."></div>
+                          <div class="item"><img width="100%" src="images/houses/3p2.jpg" alt="..."></div>
                         </div>
 
-                        <a class="left carousel-control" href="#carousel-houses" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
-                        <a class="right carousel-control" href="#carousel-houses" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
+                        <a class="left carousel-control" href="#carousel-house" data-slide="prev"><i class="fa-angle-left fa arrow-left"></i></a>
+                        <a class="right carousel-control" href="#carousel-house" data-slide="next"><i class="fa-angle-right fa arrow-right"></i></a>
                       </div>
-
+ <!--
               <div id="carousel-houses" class="carousel slide page-slider content-slider" style="">
                     <div class="carousel-inner">
                       <div class="item active">
@@ -73,20 +74,20 @@
 
                         <div class="item">
                             <img src="images/plan/2/banner.jpg" alt="...">
-                              <a class="btn-inner" data-toggle="modal" href="#int-1">
+                              <a class="btn-inner" data-toggle="modal" href="#int-2">
                                   <div class="btn-plan design nice-hover">Дизайн интерьеров <i class="fa fa-camera-retro"></i></div>
                               </a>
-                              <a class="btn-inner" data-toggle="modal" href="#plan-1">
+                              <a class="btn-inner" data-toggle="modal" href="#plan-2">
                                   <div class="btn-plan plan nice-hover">Планировка <i class="fa fa-eye"></i></div>
                               </a>
                         </div>
 
                         <div class="item">
                             <img src="images/plan/3/banner.jpg" alt="...">
-                              <a class="btn-inner" data-toggle="modal" href="#int-1">
+                              <a class="btn-inner" data-toggle="modal" href="#int-3">
                                   <div class="btn-plan design nice-hover">Дизайн интерьеров <i class="fa fa-camera-retro"></i></div>
                               </a>
-                              <a class="btn-inner" data-toggle="modal" href="#plan-1">
+                              <a class="btn-inner" data-toggle="modal" href="#plan-3">
                                   <div class="btn-plan plan nice-hover">Планировка <i class="fa fa-eye"></i></div>
                               </a>
                         </div>

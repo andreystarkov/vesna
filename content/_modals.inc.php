@@ -63,6 +63,51 @@
         </div>
      </div>
 
+      <div class="modal fade slide-900" id="int-2" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div id="carousel-plan-2" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="item active"><img src="images/plan/2/1.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/2/2.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/2/3.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/2/4.jpg" alt="..."></div>
+                  </div>
+                  <a class="left carousel-control" href="#carousel-plan-2" data-slide="prev"><span class="icon-prev"></span></a>
+                  <a class="right carousel-control" href="#carousel-plan-2" data-slide="next"><span class="icon-next"></span></a>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
+            </div>
+          </div>
+        </div>
+     </div>
+
+      <div class="modal fade slide-900" id="int-3" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div id="carousel-plan-3" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="item active"><img src="images/plan/3/1.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/3/2.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/3/3.jpg" alt="..."></div>
+                    <div class="item"><img src="images/plan/3/4.jpg" alt="..."></div>
+                  </div>
+                  <a class="left carousel-control" href="#carousel-plan-31" data-slide="prev"><span class="icon-prev"></span></a>
+                  <a class="right carousel-control" href="#carousel-plan-3" data-slide="next"><span class="icon-next"></span></a>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-go btn btn-3 btn btn-small nice-hover" data-dismiss="modal">Закрыть</button>
+            </div>
+          </div>
+        </div>
+     </div>
+
+
 
 
 

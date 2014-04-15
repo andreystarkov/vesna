@@ -51,7 +51,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 
 	</head>
-	<body>
+	<body>				<a href="#contact-form" id="ask-btn" class="ask-question skel-panels-ignoreHref">Задать вопрос <i class="fa fa-comment-o"></i></a>
+
 
 			<div class="top-panel" id="top-panel"></div>
 			<div id="header" class="skel-panels-fixed">

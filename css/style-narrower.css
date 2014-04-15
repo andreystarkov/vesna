@@ -1,21 +1,13 @@
-/*
-	Prologue 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
 
 	body,input,textarea,select
 	{
 		font-size: 16pt;
 	}
-
+/*
 	#nav { padding-top: 20px;}
 	#logo { display: none;}
-
+*/
+	#logo { margin: 10px auto; margin-bottom: 15px;}
     section h3 {
 
 		font-size: 35px;
@@ -38,8 +30,8 @@
 
     .tt-grid-wrapper nav a { display: inline-block; border-radius: 8px; font-size: 16px; font-family: 'Noto Sans'; padding: 5px 20px;
     margin-right: 3px; margin-left: 3px; margin-bottom: 10px;}
-    .layer-house { background: url(../images/px/main-house-1000.png)  center bottom; width: 960px; height: 500px;}
-     .layer-bg { background: url(../images/px/main-bg-1000.jpg)  center bottom; width: 960px; height: 500px;}
+    .layer-house { background: url(../images/px/house-1000.png)  top center no-repeat; width: 960px; height: 500px;}
+     .layer-bg { background: url(../images/px/bg-1000.jpg)  top center no-repeat; width: 960px; height: 500px;}
 
     .header-image { position: absolute; top: 0; left: 0; width: 1000px; height: 500px;}
    .carousel-control i { margin-top: 170px;}
@@ -80,10 +72,6 @@
 			position: relative;
 		}
 
-	#logo
-	{
-		margin: 1.5em 1.25em 1.25em 1.25em;
-	}
 
 	#nav
 	{
@@ -99,7 +87,7 @@
 
 				#nav ul li a
 				{
-					padding: 0.3em 1em 0.3em 1em;
+					padding: 0.2em 1em 0.2em 1em;
 					font-size: 16px;
 				}
 

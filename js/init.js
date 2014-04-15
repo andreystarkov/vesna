@@ -34,14 +34,7 @@
 							width: '3.5em',
 							height: '2.25em',
 							html: '<div data-action="togglePanel" data-args="sidePanel" class="toggle"></div>'
-						},
-			            titleBar: {
-			                breakpoints: 'mobile,narrower,narrow',
-			                position: 'top-right',
-			                width: 245,
-			                height: 50,
-			                html: '<div data-action="copyHTML" data-args="title"><a href="#contact-form" id="ask-btn" class="ask-question skel-panels-ignoreHref">Задать вопрос <i class="fa fa-comment-o"></i></a></div>'
-			            }
+						}
 					}
 				}
 			}
